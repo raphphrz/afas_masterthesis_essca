@@ -6,7 +6,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import re
-from datetime import datetime
+from datetime import datetime, timezone
 from dotenv import load_dotenv
 
 # Load API key
@@ -15,8 +15,8 @@ client = openai.OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Paths
 ADV_FOLDER = "adv_form"
-DB_PATH = "portfolio_data.db"
-PROCESSED_FOLDER = "processed"
+DB_PATH = "../data/portfolio_data.db"
+PROCESSED_FOLDER = os.path.join(ADV_FOLDER, "processed")
 
 # Database setup
 def init_db():
@@ -24,7 +24,8 @@ def init_db():
     cursor = conn.cursor()
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS portfolios (
-            portfolio_id TEXT PRIMARY KEY,
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            portfolio_id TEXT,
             advisor_type TEXT NOT NULL,
             platform_name TEXT NOT NULL,
             fund_name TEXT,
@@ -70,7 +71,7 @@ class ADVExtractor:
         If any of these data points are not present in the document, leave them blank.
         Do not create or guess any value. Do not make assumptions.
 
-        Also include a short paragraph explaining how each figure was sourced.
+        Format the "Notes" section as a clear bullet list (use dash "-" before each line) describing where and how each data point was extracted.
 
         Document Text:
         {text}
@@ -85,7 +86,9 @@ class ADVExtractor:
         Turnover Rate: <percentage as float or blank>
         Tax Efficiency: <numeric 0-10 scale or blank>
         Document Date: <YYYY-MM-DD or blank>
-        Notes: <short paragraph explaining sources or estimations>
+        Notes:
+        - <bullet point explanation>
+        - ...
         """
         response = client.chat.completions.create(
             model='gpt-4.1-mini',
@@ -120,7 +123,7 @@ def parse_and_insert(response_text, portfolio_id, cursor):
         doc_date_match = re.search(r"Document Date: (\d{4}-\d{2}-\d{2})", response_text)
         document_date = doc_date_match.group(1) if doc_date_match else ""
 
-        notes_match = re.search(r"Notes: (.+)", response_text, re.DOTALL)
+        notes_match = re.search(r"Notes:\s*(.+)$", response_text, re.DOTALL)
         notes = notes_match.group(1).strip() if notes_match else ""
 
         if mgmt_fee is None and txn_fee is None and turnover is None and tax_eff is None and aum is None:
@@ -128,7 +131,7 @@ def parse_and_insert(response_text, portfolio_id, cursor):
             return
 
         cursor.execute('''
-            INSERT OR REPLACE INTO portfolios (
+            INSERT INTO portfolios (
                 portfolio_id, advisor_type, platform_name, fund_name,
                 expense_ratio, transaction_costs, turnover_rate, 
                 tax_efficiency, assets_under_management, 
@@ -156,7 +159,7 @@ def process_adv_forms():
     count = 0
     for filename in os.listdir(ADV_FOLDER):
         if filename.endswith(".pdf"):
-            portfolio_id = f"RA_{count:03d}"
+            portfolio_id = f"RA_{int(datetime.now(timezone.utc).timestamp())}"
             path = os.path.join(ADV_FOLDER, filename)
             extractor = ADVExtractor(path)
             print(f"Processing {filename}...")
@@ -166,7 +169,6 @@ def process_adv_forms():
             conn.commit()
             count += 1
 
-            #move into processed folder
             if not os.path.exists(PROCESSED_FOLDER):
                 os.makedirs(PROCESSED_FOLDER)
 
@@ -176,9 +178,8 @@ def process_adv_forms():
 
     print(f"Processed {count} files.")
     conn.close()
-# Data visualization
 
-# Analysis preparation
+# Data analysis
 def load_data():
     conn = sqlite3.connect(DB_PATH)
     df = pd.read_sql_query("SELECT * FROM portfolios", conn)
