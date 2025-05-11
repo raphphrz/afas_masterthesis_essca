@@ -51,5 +51,5 @@ def export_to_excel(db_path, table_name, output_file):
 if __name__ == "__main__":
     db_path = "../data/portfolio_data.db"
     table_name = "portfolios"
-    output_file = "portfolios_export.xlsx"
+    output_file = "data/portfolios_export.xlsx"
     export_to_excel(db_path, table_name, output_file)

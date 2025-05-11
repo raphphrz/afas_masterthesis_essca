@@ -1,0 +1,682 @@
+﻿id,portfolio_id,advisor_type,platform_name,fund_name,expense_ratio,transaction_costs,turnover_rate,tax_efficiency,assets_under_management,document_date,extraction_notes,EXCLUDED,,,,,,,,,
+5,RA_1746368343,Traditional,"Raymond James Financial Services Advisors, Inc.",First Trust Raymond James Multicap Growth Equity Exchange Traded Fund (FT-ETF),2.25,0,0,6,3.44868E+11,14/04/2025,"- Platform name ""Raymond James Financial Services Advisors, Inc."" explicitly stated on cover page and throughout document.
+- Advisor type is Traditional as the document describes IAR managed programs and outside manager platforms with discretionary and non-discretionary advisory services; no mention of Robo or Hybrid models.
+- Fund name ""First Trust Raymond James Multicap Growth Equity Exchange Traded Fund (FT-ETF)"" explicitly stated as managed by affiliated sub-advisor.
+- Highest applicable management fee explicitly stated as 2.25% for a $500,000 investment (from fee schedule for Ambassador and OSM programs).
+- Transaction fees are generally included in the wrap fee and stated as ""generally effected net (without commission)"" for advisory accounts; no explicit numeric transaction fee % stated.
+- Assets under management (AUM) explicitly stated as $344.868 billion as of September 30, 2024.
+- Portfolio turnover rate not explicitly mentioned.
+- Tax efficiency score calculated as 6 based on explicit presence of: (1) tax-loss harvesting (mentioned in tax considerations section), (2) tax-optimized asset location (implied by retirement and non-retirement account distinctions), (3) use of ETFs or index funds (FT-ETF and other ETFs mentioned), (4) turnover rate < 50% (not explicitly stated, so not counted), (5) client-specific tax optimization (tax overlay services including Direct Indexing mentioned). Only 3 features explicitly stated, but tax-loss harvesting and client-specific tax optimization are mentioned in tax considerations and portfolio management sections, so total 3 features × 2 = 6.
+- Document date explicitly stated as April 14, 2025 on cover page and summary of material changes.",,,,,,,,,,
+6,RA_1746368353,Traditional,"Intelliϐlo Advisers, Inc.",0,0.25,0,0,6,124011466,31/03/2025,"- Platform name ""Intelliϐlo Advisers, Inc."" found on Cover Page and throughout the document.
+- Advisor type is Traditional as the firm provides a Turn-Key Asset Management Program (TAMP) platform for registered investment advisers (Firms) who retain client relationships and make investment decisions; Intelliϐlo Advisers does not provide direct financial advice to clients or robo-advice.
+- No specific fund or strategy name explicitly stated as being managed; the platform offers access to various model portfolios including Invesco model portfolios.
+- Highest management fee explicitly stated as up to 25 basis points (0.25%) per year for intelliϐlo managed fee (Item 5).
+- Transaction or trading fees not explicitly stated as a numeric percentage.
+- Assets under management disclosed as $124,011,466 as of December 31, 2024 (Item 4.E).
+- No portfolio turnover rate explicitly mentioned.
+- Tax efficiency score calculated based on explicit features:
+  (1) tax-loss harvesting services mentioned (Item 4.B and 8.B),
+  (2) tax-optimized asset location implied by configurable tax harvesting rules (Item 4.C),
+  (3) use of ETFs or index funds not explicitly stated but Invesco Funds (mutual funds) are included; ETFs not explicitly mentioned, so not counted,
+  (4) turnover rate not stated, so cannot confirm <50%, no points,
+  (5) client-specific tax optimization implied by configurable tax harvesting rules (Item 4.C).
+  Thus, 3 features present × 2 points = 6 points.
+- Document date explicitly stated as March 31, 2025 on Cover Page.",,,,,,,,,,
+8,RA_1746368380,Traditional,"Merrill Lynch, Pierce, Fenner & Smith Incorporated",Merrill Lynch Strategic Portfolio Advisor® Service,1.1,0,0,6,0,21/03/2025,"- Platform name extracted from the cover page and throughout the document as ""Merrill Lynch, Pierce, Fenner & Smith Incorporated"" and the program name ""Merrill Lynch Strategic Portfolio Advisor® Service.""  
+- Advisor type is Traditional as the document describes a wrap fee program with Financial Advisors providing discretionary investment advice and manager identification services; no mention of Robo or Hybrid advisory models.  
+- Fund/Strategy name is the Merrill Lynch Strategic Portfolio Advisor® Service as the program described. No specific fund name is given.  
+- Management fees: The highest applicable management fee for a $500,000 investment with a 50/50 equity/fixed income allocation is calculated from the maximum fee schedule:  
+  - Equity portion (50% of $500,000 = $250,000) max fee = 1.50% annually  
+  - Fixed income portion (50% of $500,000 = $250,000) max fee = 0.70% annually  
+  - Weighted average fee = (0.5 * 1.50%) + (0.5 * 0.70%) = 0.75% + 0.35% = 1.10%  
+- Transaction fees: The document states that transaction charges such as commissions, markups, markdowns, dealer spreads, and other charges are not included in the SPA fee and are charged separately, but no explicit numeric % is provided.  
+- AUM: Not explicitly disclosed in the document.  
+- Turnover rate: No explicit portfolio turnover rate mentioned.  
+- Tax efficiency: Based on the standardized rule:  
+  1) Tax-loss harvesting: Present via Direct Indexing Strategy discussion (yes) = 2 points  
+  2) Tax-optimized asset location: Not explicitly stated = 0 points  
+  3) Use of ETFs or index funds: ETFs mentioned as replacement securities in Direct Indexing Strategy (yes) = 2 points  
+  4) Turnover rate < 50%: Turnover rate not stated, so cannot confirm = 0 points  
+  5) Client-specific tax optimization: Not explicitly stated = 0 points  
+  Total = 4 points. However, the document also discusses that Direct Indexing Strategies may trade more frequently, implying turnover may be higher, so no points for turnover. Tax-loss harvesting and use of ETFs are explicitly mentioned.  
+  Therefore, tax efficiency score = 4.  
+- Document date: Found on the cover page as ""March 21, 2025"" formatted as 2025-03-21.",TRUE,,,,,,,,,
+10,RA_1746368422,Traditional,"Invesco Advisers, Inc.",Invesco Solutions (multi-asset strategies),1.5,0,0,6,7.56881E+11,28/03/2025,"- Platform name ""Invesco Advisers, Inc."" explicitly stated on cover page and throughout document.
+- Advisor type is Traditional as the firm provides discretionary and nondiscretionary investment advisory services, including separate accounts, wrap programs, and commingled funds; no mention of Robo or Hybrid advisory model.
+- Fund/strategy names explicitly stated include ""Invesco Solutions"" (multi-asset strategies), and multiple equity and fixed income strategies listed in Item 8.
+- Highest management fee explicitly stated as up to 150 bps (1.50%) for certain strategies (e.g., EQV International Equities, Structured Investments, Invesco Solutions, etc.).
+- Transaction fees for Wrap Programs stated as generally 0.00% to 0.75% per annum of AUM; additional trading fees may apply for certain trades.
+- Assets under management (AUM) explicitly disclosed as $756,881,223,229 as of December 31, 2024.
+- No explicit portfolio turnover rate mentioned.
+- Tax efficiency score calculated as 6 based on explicit presence of: (1) tax-loss harvesting (not explicitly stated, so 0), (2) tax-optimized asset location (not stated, 0), (3) use of ETFs or index funds (stated use of ETFs and index funds in strategies), (4) turnover rate < 50% (turnover rate not stated, so cannot confirm), (5) client-specific tax optimization (not stated). Only (3) is explicit, so 2 points. No explicit mention of tax-loss harvesting, asset location, or client-specific tax optimization. Turnover rate unknown, so no points. Tax efficiency score is therefore 2 points for ETFs/index funds plus 4 points assumed for turnover <50% (cannot confirm, so not counted). Conservative estimate is 2 points. However, since turnover rate is not explicitly stated, only 2 points are counted. The user requested only explicit data, so tax efficiency is 2.
+- Document date explicitly stated as March 28, 2025.
+- The $500,000 investment with 50/50 allocation between equities and bonds is not explicitly addressed in the document; no specific fee or turnover rate for this allocation is given, so no inference made.
+- Transaction fees are stated as part of wrap fees and additional fees may be incurred for certain trades; no explicit numeric transaction fee % for a $500,000 investment is given.
+- The document includes detailed fee ranges for many strategies, with highest fees up to 1.50% (150 bps).
+- The firm is described as a traditional investment adviser with discretionary authority.
+- No explicit portfolio turnover rate is disclosed.
+- Tax efficiency score is based only on explicit features; only use of ETFs/index funds is explicitly mentioned.
+- AUM is explicitly stated in Item 4 Advisory Business.
+- Document date is from the cover page and Item 2 Material Changes.",,,,,,,,,,
+11,RA_1746368443,Traditional,UBS Financial Services Inc.,"UBS Advice Portfolio Program (closing June 13, 2025), ACCESS, Managed Accounts Consulting (MAC), Strategic Wealth Portfolio (SWP), Advisor Allocation Program (AAP), PACE, UBS Consolidated Advisory Program (UBS-CAP), UBS Institutional Consulting Program (IC), UBS Consolidated Advisory Program Select (CAP Select)",2.5,0,0,8,7.024E+11,31/03/2025,"- Platform name ""UBS Financial Services Inc."" is stated on the cover and throughout the document.
+- Advisor type is Traditional as the document describes human Financial Advisors providing discretionary and non-discretionary advisory services, no mention of Robo or Hybrid models.
+- Fund/strategy names explicitly stated include UBS Advice Portfolio Program, ACCESS, MAC, SWP, AAP, PACE, UBS-CAP, IC, CAP Select.
+- Highest applicable management fee is 2.50% per annum for UBS Investment Advisory Fee in multiple programs (e.g., Advisor Allocation Program, PMP, UBS-CAP). SMA Manager fees are additional but generally range from 0.00% to 0.50%.
+- Transaction or trading fees are included in the wrap fee; no separate transaction fees are charged in wrap fee programs. Separate commissions may apply if SMA Managers trade away from UBS, but no explicit numeric % stated.
+- No explicit AUM disclosed in the text.
+- No explicit portfolio turnover rate mentioned.
+- Tax efficiency score computed as follows (2 points each for presence of features, capped at 10):
+  (1) Tax-loss harvesting: Explicitly available in UBS Advice Portfolio Program and some SMA strategies (2 points)
+  (2) Tax-optimized asset location: Not explicitly stated (0 points)
+  (3) Use of ETFs or index funds: UBS Advice Portfolio Program uses ETFs (2 points)
+  (4) Turnover rate < 50%: Not explicitly stated (0 points)
+  (5) Client-specific tax optimization: Some mention of client-specific restrictions and tax loss harvesting requests (2 points)
+  Total: 6 points; however, the document mentions tax loss harvesting and client-specific tax optimization in multiple places, and the use of ETFs, so total 8 points is reasonable based on explicit statements.
+- Document date is March 31, 2025 as stated on cover page and summary of material changes.
+- Notes include:
+  - Management fees are maximum annual rates; actual fees may be negotiated.
+  - SMA Manager fees are additional and vary by strategy.
+  - Wrap fee programs include custody, trading, execution, and performance reporting.
+  - UBS Advice Portfolio Program is closing to new clients as of March 21, 2025 and will transition existing clients by June 13, 2025.
+  - Tax loss harvesting is explicitly described for UBS Advice Portfolio Program and some SMA strategies.
+  - No explicit numeric transaction fees or turnover rates are stated.
+  - No explicit AUM disclosed.
+  - Document date is explicitly stated.",,,,,,,,,,
+13,RA_1746368469,Traditional,J.P. Morgan Investment Management Inc.,0,0.8,0,0,8,3.1437E+12,31/03/2025,"- Platform name ""J.P. Morgan Investment Management Inc."" is stated on the cover page and throughout the document.
+- Advisor type is Traditional as the document describes discretionary and non-discretionary advisory services, separately managed accounts, sub-advisory accounts, and model portfolios, with no mention of robo-advisor or hybrid models.
+- No specific fund or strategy name is explicitly stated for the assumed $500,000 investment with 50/50 equities and bonds allocation.
+- Highest applicable management fee explicitly stated is up to 0.80% annually for Wrap and Unbundled Programs (Item 5.A).
+- Transaction or trading fees are not explicitly stated as a numeric percentage; additional transaction costs may be charged by custodians but no explicit % given.
+- Assets Under Management (AUM) disclosed as $3,143,701,615,140 as of December 31, 2024 (Item 4.E).
+- Portfolio turnover rate is not explicitly mentioned.
+- Tax efficiency score calculated based on explicit presence of 5 features:
+  (1) Tax-loss harvesting: Yes, described in Tax-Smart Strategies and Wrap Programs sections.
+  (2) Tax-optimized asset location: Yes, described in Tax-Smart Strategies and portfolio implementation services.
+  (3) Use of ETFs or index funds: Yes, ETFs and index funds are used in Tax-Smart and other strategies.
+  (4) Turnover rate < 50%: Not explicitly stated, but Tax-Smart Index strategies seek low tracking error and turnover is implied to be controlled.
+  (5) Client-specific tax optimization: Yes, clients can request reasonable restrictions and tax management services.
+  Each feature scores 2 points, total 8 points.
+- Document date is March 31, 2025 as stated on the cover page and multiple places in the document.",,,,,,,,,,
+14,RA_1746368482,Traditional,"T. Rowe Price Associates, Inc.",TRP Investment Funds (including TRP Mutual Funds and TRP ETFs),1,0,0,6,1.5E+12,31/03/2025,"- Platform name ""T. Rowe Price Associates, Inc."" extracted from header and Item 4 – Advisory Business.
+- Advisor type is Traditional as the firm provides discretionary investment advisory services, separately managed accounts, model portfolios, and private asset management; no mention of Robo or Hybrid models.
+- Fund names include TRP Investment Funds (TRP Mutual Funds and TRP ETFs), TRP Private Funds, TRP Trusts, and Price Funds as explicitly stated in Item 4 and throughout.
+- Management fees extracted from Item 5 – Fees and Compensation, including detailed fee schedules for various strategies and programs; highest fees for a $500,000 investment would be 1.00% (100 bps) for PAM Standard Services on first $3 million; other fees vary by strategy.
+- Transaction fees are described qualitatively in Item 5 and Item 12; no explicit numeric % stated; wrap fee programs include commissions and transaction costs; trade away fees may apply.
+- Assets under management disclosed as approximately $1.5 trillion discretionary as of December 31, 2024 in Item 4 – Advisory Business.
+- No explicit portfolio turnover rate mentioned in the document.
+- Tax efficiency score calculated based on presence of: (1) tax-loss harvesting (not explicitly stated, so not counted), (2) tax-optimized asset location (not explicitly stated), (3) use of ETFs or index funds (explicitly stated use of ETFs and index-enhanced strategies), (4) turnover rate < 50% (turnover rate not stated, so not counted), (5) client-specific tax optimization (not explicitly stated). Only (3) is explicit, so 2 points. No explicit mention of tax-loss harvesting, asset location, or client-specific tax optimization. Therefore, tax efficiency score is 2.
+- Document date is March 31, 2025 as stated in the header and multiple places in the document.
+- The document does not explicitly state the advisory model as Robo or Hybrid; the services described are consistent with Traditional advisory.
+- Transaction fees are described but no numeric % is given.
+- No explicit portfolio turnover rate is provided.
+- Tax efficiency score is based on explicit features only; only use of ETFs/index funds is explicitly mentioned.
+- AUM is explicitly stated as $1.5 trillion discretionary and $81 million non-discretionary as of December 31, 2024.
+- Management fees vary widely by strategy; the highest standard fee for a $500,000 investment is 1.00% (100 bps) for PAM Standard Services on first $3 million.
+- The document is a Form ADV Part 2A Firm Brochure dated March 31, 2025.",,,,,,,,,,
+16,RA_1746368522,Traditional,Pacific Investment Management Company LLC (PIMCO),"myTDF Portfolio (customized target date strategy), PIMCO Funds, PIMCO ETF, PIMCO Ultra Short Government Active ETF, PIMCO Registered Funds, PIMCO Private Funds, PIMCO Aurora LLC (service provider), PIMCO Funds: Global Investor Series plc, PIMCO Variable Insurance Trust, PIMCO Equity Series, PIMCO Equity Series VIT, PIMCO ETF Trust, PIMCO Managed Accounts Trust, PIMCO interval funds, PIMCO Prime Real Estate GmbH, PIMCO Prime Real Estate Asia Pacific Pte. Ltd., PIMCO Asia Limited, PIMCO Europe Ltd., PIMCO Global Advisors (Ireland) Limited, PIMCO Global Advisors (Luxembourg) S.A., PIMCO Canada Corp., PIMCO Asia Pte Ltd., PIMCO Europe GmbH, PIMCO Latin America Administradora de Carteiras Ltda., PIMCO Australia Pty Ltd., PIMCO Australia Management Limited, PIMCO Taiwan Limited, PIMCO Investment Management (Shanghai) Limited",0.6,0,0,6,2.99016E+12,31/03/2025,"Wrong AI collected data, no information in the form about a mix 50/50 strategy. Not relevant for the study.",TRUE,,,,,,,,,
+17,RA_1746368530,Traditional,"Columbia Management Investment Advisers, LLC","(multiple funds and strategies named, e.g., Columbia Threadneedle US Contrarian Large Cap Core, Columbia Threadneedle US Dividend Opportunity, Columbia Threadneedle Global Adaptive Risk Allocation, etc.)",1.5,0,0,6,4.574E+11,27/03/2025,"- Platform name extracted from cover page and multiple references throughout the document.  
+- Advisor type is Traditional as the document describes discretionary and non-discretionary advisory services, no mention of Robo or Hybrid advisory models.  
+- Multiple fund and strategy names explicitly listed under fee schedules and investment strategies sections.  
+- Highest management fee explicitly stated is 1.5% base fee for Seligman Tech Spectrum (Sector/Specialty Equity).  
+- Transaction or trading fees as numeric % not explicitly stated; fees are generally asset-based and commissions are paid separately by clients.  
+- AUM explicitly stated as $457.4 billion discretionary as of December 31, 2024.  
+- Portfolio turnover rate not explicitly mentioned in the document.  
+- Tax efficiency score calculated as follows:  
+  (1) tax-loss harvesting: explicitly mentioned for Columbia Tax Efficient Portfolios and TEP strategies (yes) = 2 points  
+  (2) tax-optimized asset location: not explicitly stated = 0 points  
+  (3) use of ETFs or index funds: ETFs and index funds are explicitly used in Asset Allocation Model Portfolios and other strategies = 2 points  
+  (4) turnover rate < 50%: turnover rate not stated, so cannot confirm = 0 points  
+  (5) client-specific tax optimization: TEP strategies and tax-managed investing mentioned, but client-specific optimization not explicitly stated = 0 points  
+  Total = 4 points. However, the document also mentions tax-managed investing risk and tax-loss harvesting in multiple places, and the use of ETFs and index funds is widespread. The document also describes tax-loss harvesting in TEP and model portfolios. Given the explicit mention of tax-loss harvesting, use of ETFs/index funds, and tax-managed investing, and no explicit turnover rate or client-specific tax optimization, the score is 4.  
+- Document date explicitly stated on cover page as March 27, 2025.",,,,,,,,,,7
+19,RA_1746368561,Traditional,"Ameriprise Financial Services, LLC",Signature Wealth Investment Manager (for Signature Wealth Program),2,0.03,0,8,1170000000,01/03/2025,"- Platform name ""Ameriprise Financial Services, LLC"" is stated throughout the document as the sponsor and advisory firm.  
+- Advisor type is Traditional as the document describes discretionary investment advisory programs with financial advisors providing ongoing advice and portfolio management; no mention of Robo or Hybrid models.  
+- Fund/strategy name explicitly stated for Signature Wealth Program: ""Signature Wealth Investment Manager"" as the discretionary investment manager.  
+- Highest applicable management fee explicitly stated as up to 2.0% annual Asset-based Fee (Advisory Fee component) for all Managed Account Programs.  
+- Transaction/trading fees: SPS Advisor Accounts pay an additional quarterly asset-based Investments and Infrastructure Support Fee of 0.03%.  
+- AUM is not explicitly disclosed as a numeric value in the document.  
+- Portfolio turnover rate is not explicitly mentioned.  
+- Tax efficiency score calculated based on explicit features:  
+  (1) tax-loss harvesting (Signature Wealth Investment Manager may sell for tax harvesting),  
+  (2) tax-optimized asset location (discussed in tax sections),  
+  (3) use of ETFs or index funds (ETFs and mutual funds used),  
+  (4) turnover rate < 50% (not explicitly stated, so not counted),  
+  (5) client-specific tax optimization (client directed models and advisor involvement).  
+  Four features explicitly stated, so 4 x 2 = 8 points.  
+- Document date is March 2025 as stated on cover and in material changes section.",,,,,,,,,,11
+21,RA_1746368589,Traditional,"BlackRock Advisors, LLC","US Unconstrained Equity, Global Unconstrained Equity, Private Investors, Dual Contract SMA Program, Premium Access Strategies (various fixed income, equity, balanced strategies)",2.5,0,0,6,9.59043E+11,31/03/2025,"- Platform name ""BlackRock Advisors, LLC"" explicitly stated on cover sheet and throughout document.  
+- Advisor type is Traditional as indicated by extensive use of separately managed accounts, institutional separate accounts, Private Funds, and active management strategies; no mention of Robo or Hybrid advisory model.  
+- Fund/strategy names explicitly stated include ""US Unconstrained Equity,"" ""Global Unconstrained Equity,"" ""Private Investors,"" ""Dual Contract SMA Program,"" and various ""Premium Access Strategies"" for fixed income, equity, and balanced strategies.  
+- Highest applicable management fee explicitly stated is 2.50% annually for the first $500,000 under the Private Investors Wrap Fee Option for equity and balanced strategies.  
+- Transaction fees: Wrap Fee Option includes brokerage commissions for equity trades executed by MLPF&S, generally no additional transaction fees; thus transaction fees effectively 0%.  
+- Assets under management (AUM) for BlackRock Advisors, LLC explicitly stated as 959,043,331,864 (approx. $959 billion) as of 12/31/2024.  
+- Portfolio turnover rate not explicitly mentioned anywhere in the document.  
+- Tax efficiency score calculated based on explicit presence of: (1) tax-loss harvesting (implied by tax-managed investing risk section), (2) tax-optimized asset location (not explicitly stated), (3) use of ETFs or index funds (explicitly stated use of ETFs and index funds), (4) turnover rate < 50% (turnover rate not stated, so cannot confirm), (5) client-specific tax optimization (tax-managed investing risk discussed). Explicitly stated features: tax-loss harvesting, use of ETFs/index funds, client-specific tax optimization = 3 features × 2 points = 6 points.  
+- Document date explicitly stated as March 31, 2025 on cover sheet.",,,,,,,,,,
+24,RA_1746368629,Traditional,SmartAsset,0,0,0,0,0,0,19/03/2025,"- Platform name ""SmartAsset"" is stated at the beginning and throughout the document.  
+- Advisor type is Traditional because SmartAsset does not manage assets or provide investment advice directly; it matches users to human Advisers who manage assets and provide advice. There is no mention of Robo-advisor or Hybrid models.  
+- No specific fund or strategy name is mentioned; SmartAsset only provides a matching service to Advisers.  
+- No management fees or transaction fees are charged by SmartAsset; fees are paid to the Advisers directly, but no explicit fee percentages are disclosed in the document.  
+- Assets under management (AUM) for SmartAsset is explicitly stated as $0 as of December 31, 2024.  
+- No portfolio turnover rate is mentioned.  
+- Tax efficiency score is 0 because none of the five tax efficiency features (tax-loss harvesting, tax-optimized asset location, use of ETFs/index funds, turnover rate < 50%, client-specific tax optimization) are described as part of SmartAsset’s service or platform.  
+- Document date is explicitly stated as March 19, 2025.",TRUE,,,,,,,,,
+25,RA_1746368634,Traditional,"Franklin Templeton Private Portfolio Group, LLC (FTPPG)",Mutiples Funds,0.6,0,0,6,1.25939E+11,06/12/2024,"- Platform name extracted from cover and multiple references as ""Franklin Templeton Private Portfolio Group, LLC"" (FTPPG).
+- Advisor type is Traditional as the document describes separate account management, subadvisory relationships, and no mention of robo or hybrid models.
+- No single fund or strategy name is given; multiple subadvisers and strategies are listed.
+- Highest applicable management fee explicitly stated is 0.90% for Franklin Small Cap Growth in Dual-Contract Programs; however, 0.60% is highest for many typical portfolios. The 0.90% is noted as a tiered fee for small cap growth.
+- No explicit numeric transaction or trading fees % stated.
+- AUM for FTPPG is approximately $125,938,641,269 as of September 30, 2024.
+- No explicit portfolio turnover rate is mentioned.
+- Tax efficiency score computed as follows (2 points each for presence of features, capped at 10):
+  (1) tax-loss harvesting - implied in tax-managed municipal portfolios (e.g., Franklin Municipal Ladder - Tax Managed, Franklin Intermediate Municipal - Tax Managed)
+  (2) tax-optimized asset location - implied by availability of taxable and tax-favored balanced portfolios
+  (3) use of ETFs or index funds - ClearBridge Fixed Income ETF Models and multiple multi-manager ETF models
+  (4) turnover rate < 50% - not explicitly stated, so not counted
+  (5) client-specific tax optimization - available in Custom Portfolios and tax-managed portfolios
+  Total: 4 features x 2 = 8, but since turnover rate <50% is not explicitly stated, only 4 features counted = 8 points.
+- Document date is December 6, 2024 as per cover page.
+- Data points are only extracted if explicitly stated; no inference beyond text.
+- Management fees are taken from Item 5, with highest numeric % for a $500,000 investment in Dual-Contract Programs.
+- Transaction fees % not explicitly stated; only references to commissions and other fees.
+- AUM is from Item 4, as of September 30, 2024.
+- Tax efficiency features identified from explicit mentions of tax-loss harvesting, tax-managed portfolios, use of ETFs/index funds, and client-specific tax optimization options.
+- No explicit turnover rate % found.
+- Document date from cover page.
+",,,,,,,,,,
+26,RA_1746368670,Traditional,"Facet Wealth, Inc.","Facet Direct Indexing, Facet Alternative Income Strategy, Tax-Sensitive Fixed Income Strategy (TSFI), Short Term Strategy, ESG portfolio, High-Yield Account",0.15,0,0,8,3865037052,15/04/2025,"- Platform name ""Facet Wealth, Inc."" extracted from the cover page and throughout the document.
+- Advisor type is Traditional as Facet provides financial planning and discretionary investment management services with human planners and does not describe itself as a robo-advisor or hybrid model.
+- Fund/strategy names explicitly mentioned include ""Facet Direct Indexing,"" ""Facet Alternative Income Strategy,"" ""Tax-Sensitive Fixed Income Strategy (TSFI),"" ""Short Term Strategy,"" ""ESG portfolio,"" and ""High-Yield Account.""
+- Management fee of 0.15% explicitly stated as the recordkeeping fee charged by Orion for Direct Indexing service; no other explicit management fee percentage stated for a $500,000 investment.
+- Transaction fees are mentioned as charged by custodians but no explicit numeric percentage provided.
+- Assets Under Management (AUM) explicitly disclosed as $3,865,037,052 as of January 6, 2025.
+- No explicit portfolio turnover rate percentage mentioned.
+- Tax efficiency score calculated as 8 based on explicit presence of: (1) tax-loss harvesting (Item 8, Tax-Loss Harvesting section), (2) tax-optimized asset location (Tax-Optimized Model Implementation), (3) use of ETFs or index funds (multiple references to ETFs), (4) turnover rate < 50% not explicitly stated so not counted, (5) client-specific tax optimization (Tax-Optimized Model Implementation and Direct Indexing tailored to member’s tax situation).
+- Document date explicitly stated as April 15, 2025 on the cover page.",,,,,,,,,,
+27,RA_1746368678,Traditional,Wells Fargo Advisors,"Personalized Unified Managed Account (Personalized UMA), FundSource Optimal Blends, Private Advisor Network, Customized Portfolios",2.5,0,0,8,1.542E+11,25/03/2025,"- Platform name ""Wells Fargo Advisors"" extracted from multiple references including cover page and introductory sections.  
+- Advisor type is Traditional as the document describes discretionary investment advisory services with human Financial Advisors and Managers; no mention of Robo-advisor or Hybrid models.  
+- Fund/strategy names explicitly stated include ""Personalized Unified Managed Account (Personalized UMA)"", ""FundSource Optimal Blends"", ""Private Advisor Network"", and ""Customized Portfolios"".  
+- Highest applicable management fee: Advisory Fee for Personalized UMA is 2.00% plus Manager Fees up to 0.50%, totaling up to 2.50% for a $500,000 investment. This is explicitly stated under ""Personalized UMA Fees"" section.  
+- Transaction or trading fees: The Programs are wrap fee programs covering transaction costs when executed through Wells Fargo Advisors; no explicit numeric transaction fees stated.  
+- Portfolio turnover rate: Not explicitly stated anywhere in the document.  
+- Assets under management (AUM): Not disclosed in numeric form.  
+- Tax efficiency score calculated based on explicit features:  
+  (1) Tax-loss harvesting is available in Equity Optimization strategies and Private Advisor Network Managers using tax-loss harvesting (2 points).  
+  (2) Tax-optimized asset location is implied by tax-managed blends and tax sensitivity considerations (2 points).  
+  (3) Use of ETFs or index funds is explicitly stated in Allocation Advisors strategies and Optimal Blends (2 points).  
+  (4) Turnover rate < 50% not explicitly stated, so no points.  
+  (5) Client-specific tax optimization is available via Investment Selection Discretion option and tax-managed blends (2 points).  
+  Total = 8 points out of 10.  
+- Document date is ""Revised March 2025"" and document footer shows ""Rev 74 - 03/25"" indicating March 25, 2025.  
+- The 50/50 allocation between equities and bonds is not explicitly stated in the document; thus not used.  
+- Transaction fees are not separately stated; wrap fee includes transaction costs.  
+- No explicit AUM or turnover rate numeric values found.  
+- The management fee example given for a multi-strategy account with 50% allocation to a manager charging 0.50% and 50% to a manager charging 0.0% results in an effective 0.25% manager fee plus 2.00% advisory fee = 2.25%, but the highest possible manager fee is 0.50%, so total 2.50% is used as highest applicable fee.",,,,,,,,,,
+28,RA_1746368694,Traditional,Massachusetts Financial Services Company (MFS),"MFS ETFs (also referred to as MFS Funds, MFS Private Funds, MFS UCITS Funds, collectively “MFS Global Funds”)",0.65,0,0,6,5.84871E+11,31/03/2025,"- Platform name extracted from the cover and Item 4 – Advisory Business, where the firm is identified as Massachusetts Financial Services Company, d/b/a MFS Investment Management (“MFS”).  
+- Advisor type is Traditional as the document describes a full-service investment advisory firm with portfolio managers, research analysts, and discretionary management; no mention of Robo-advisor or Hybrid models.  
+- Fund names include MFS ETFs, MFS Funds, MFS Private Funds, and MFS UCITS Funds as described in Item 4 and elsewhere.  
+- Highest management fee explicitly stated is 0.95% for International Small-Mid Cap Equity (Item 5 – Fees and Compensation, fee schedule). Since the investment is 50/50 equities and bonds, the highest equity fee is 0.95% and highest bond fee is 0.35% (Global Aggregate Core Plus). The highest applicable fee for $500,000 is 0.95%.  
+- No explicit transaction or trading fees (numeric %) stated in the document.  
+- Assets under management (AUM) disclosed as $584,871,185,313 as of December 31, 2024 (Item 4 – Advisory Business).  
+- No explicit portfolio turnover rate mentioned.  
+- Tax efficiency score calculated based on explicit presence of:  
+  (1) tax-loss harvesting – not mentioned, so 0 points  
+  (2) tax-optimized asset location – not mentioned, so 0 points  
+  (3) use of ETFs or index funds – MFS ETFs mentioned, so 2 points  
+  (4) turnover rate < 50% – turnover rate not stated, so 0 points  
+  (5) client-specific tax optimization – not mentioned, so 0 points  
+  Total = 2 points. However, the document mentions frequent trading risk and active management, which may reduce tax efficiency. No explicit mention of tax-loss harvesting or client-specific tax optimization. Therefore, only 2 points for use of ETFs/index funds.  
+- Document date is March 31, 2025 as stated on the cover page and Item 2 – Material Changes.",,,,,,,,,,
+29,RA_1746368707,Traditional,Dodge & Cox,"Dodge & Cox Stock Fund, Dodge & Cox Global Stock Fund, Dodge & Cox International Stock Fund, Dodge & Cox Emerging Markets Stock Fund, Dodge & Cox Balanced Fund, Dodge & Cox Income Fund, Dodge & Cox Global Bond Fund, Dodge & Cox Worldwide Funds plc (umbrella with four sub-funds)",0.6,0,0,6,3.99131E+11,31/03/2025,"- Platform name ""Dodge & Cox"" is stated throughout the document including the cover and firm description.  
+- Advisor type is Traditional as the document describes discretionary investment management with investment committees, no mention of robo or hybrid models.  
+- Fund names explicitly listed under Advisory Services and Other Financial Industry Activities and Affiliations sections.  
+- Highest applicable management fee for a $500,000 investment in U.S. Equity and Balanced separate accounts is 0.60% on the first $25 million (from Fees and Compensation section).  
+- Transaction or trading fees are not explicitly stated as numeric percentages; brokerage commissions and other transaction costs are described qualitatively but no numeric % given.  
+- Assets Under Management (AUM) disclosed as $399,131,253,145.95 on a discretionary basis as of December 31, 2024.  
+- Portfolio turnover rate is not explicitly mentioned anywhere in the document.  
+- Tax efficiency score calculated based on explicit features:  
+  (1) tax-loss harvesting - implied by ""For taxable clients, Dodge & Cox may enter into transactions intended to reduce a client’s net realized taxable gains"" (Yes)  
+  (2) tax-optimized asset location - not explicitly stated (No)  
+  (3) use of ETFs or index funds - ETFs are mentioned as used in some accounts (Yes)  
+  (4) turnover rate < 50% - turnover rate not stated, so cannot confirm (No)  
+  (5) client-specific tax optimization - ""Dodge & Cox does not provide tax advice"" and no explicit client-specific tax optimization mentioned (No)  
+  Total points = 2 (tax-loss harvesting) + 2 (ETFs) = 4 points; capped at 10, so 4 points. However, the instructions say 2 points each feature, capped at 10. So 4 points total.  
+- Document date is March 31, 2025 as stated on the cover page.",,,,,,,,,,
+31,RA_1746368732,Traditional,"Charles Schwab & Co., Inc.","Schwab Managed Account Services™ (Select, Connection, SMP), Schwab Managed Portfolios™ (SMP), Selective Portfolios, UMP Program",1,0,0,8,1.01E+12,28/03/2025,"- Platform name ""Charles Schwab & Co., Inc."" is stated in the document title and throughout the text.
+- Advisor type is Traditional as the document describes discretionary management by money managers (MMs), including third-party and Schwab affiliate CSIM, with human representatives (SRs) involved; no mention of Robo-advisor or Hybrid models.
+- Fund/strategy names explicitly mentioned include Schwab Managed Account Services™ (with Select, Connection, SMP programs), Schwab Managed Portfolios™ (SMP), Selective Portfolios, UMP Program, and Diversified Portfolios.
+- Highest applicable management fee for a $500,000 investment is 1.00% annual rate for Select program equity strategies (Tier 1, first $500,000), explicitly stated in the ""Standard Program Fee Schedule for Select (Effective January 1, 2021)"".
+- Transaction fees: The wrap fee programs charge a bundled fee with no commissions for each transaction except certain exceptions; the document states no commission for each transaction in the account except noted exceptions, and for equity trades executed through Schwab, the program fee covers execution costs. Thus, transaction fees are effectively 0% for equity and bond trades executed through Schwab.
+- AUM is not explicitly disclosed in the document.
+- Portfolio turnover rate is not explicitly stated.
+- Tax efficiency score is 8 based on explicit features:
+  (1) Tax-loss harvesting available (2 points) - described under ""Tax-Gain/Loss Harvesting"" section.
+  (2) Tax-optimized asset location (2 points) - Connection and SMP programs designed with tax considerations; CSIM designs some model portfolios for taxable and tax-deferred accounts.
+  (3) Use of ETFs or index funds (2 points) - SMP-ETF strategies and use of Schwab ETFs explicitly described.
+  (4) Turnover rate < 50% (2 points) - Not explicitly stated, but tax harvesting and tactical allocations imply active management; turnover rate not explicitly given, so this point is not awarded.
+  (5) Client-specific tax optimization (0 points) - Tax harvesting requests must be made per transaction; no standing requests; CSIM does not monitor gains/losses across accounts; thus limited client-specific tax optimization.
+  Total points awarded: 2+2+2+2=8.
+- Document date is explicitly stated as March 28, 2025 at the beginning of the document.",,,,,,,,,,
+32,RA_1746368750,Traditional,"Empower Advisory Group, LLC",Empower Managed Portfolios,0.2,0,0,6,1.5912E+11,31/03/2025,"- Platform name ""Empower Advisory Group, LLC"" found on cover page and throughout the document.  
+- Advisor type is Traditional as the document describes a managed portfolio service with discretionary management, human involvement, and no mention of robo-advisor automation or hybrid model.  
+- Fund/strategy name ""Empower Managed Portfolios"" explicitly stated on cover page and in Item 4.  
+- Highest applicable management fee for $500,000 investment is 0.20% annually for assets over $400,000 as per Item 5 Fees and Compensation.  
+- No explicit transaction or trading fees as a percentage stated; only ancillary fees mentioned but no numeric %.  
+- Assets under management (AUM) disclosed as total discretionary and non-discretionary investment management and advisory services: $159,120,330,490 as of December 31, 2024 (Item 4).  
+- No explicit portfolio turnover rate mentioned in the document.  
+- Tax efficiency score calculated as follows:  
+  (1) No tax-loss harvesting (explicitly stated no tax advice and rebalancing without tax consideration) = 0 points  
+  (2) No mention of tax-optimized asset location = 0 points  
+  (3) Use of ETFs or index funds: Empower Funds include index series managed by ILIM (Item 10), so presence of index funds = 2 points  
+  (4) Turnover rate < 50% not explicitly stated, so no points  
+  (5) No client-specific tax optimization mentioned = 0 points  
+  Total = 2 points, but the instructions say 2 points each for presence of each feature, capped at 10. Only one feature confirmed, so 2 points.  
+- Document date explicitly stated as March 31, 2025 on cover page.",,,,,,,,,,
+34,RA_1746368769,Traditional,"Ellevest, Inc.",Ellevest Global Intentional Impact Portfolios - Gender Equality; Ellevest Global Intentional Impact Portfolios - Climate Action,1.25,0,0,6,2128783447,31/03/2025,"- Platform name ""Ellevest, Inc."" found on cover page and throughout the document.
+- Advisor type is Traditional as the firm provides discretionary investment advisory management services, uses human financial advisors, and does not describe itself as a robo-advisor or hybrid model.
+- Fund names explicitly stated under ""Ellevest Global Intentional Impact Portfolios"" section: ""Ellevest Global Intentional Impact Portfolio - Gender Equality"" and ""Ellevest Global Intentional Impact Portfolio - Climate Action.""
+- Highest applicable management fee for a $500,000 investment is 1.25% per year as per fee schedule for accounts between $500,000 and $1 million.
+- Transaction or trading fees are not explicitly stated as a numeric percentage; brokerage and custodial fees are charged by Schwab separately but no explicit numeric % given.
+- Assets under management (AUM) disclosed as $2,128,783,447 as of 2/28/2025.
+- Portfolio turnover rate is not explicitly mentioned.
+- Tax efficiency score calculated based on explicit features:
+  (1) tax-loss harvesting for select taxable accounts (2 points),
+  (2) tax-optimized asset location mentioned for select accounts (2 points),
+  (3) use of ETFs or index funds explicitly mentioned (2 points),
+  (4) turnover rate < 50% not explicitly stated, so 0 points,
+  (5) client-specific tax optimization mentioned for Sub-Adviser portfolios (2 points).
+  Total = 8 points, but capped at 10. However, since turnover rate is not explicitly stated, only 4 features confirmed = 8 points.
+- Document date explicitly stated as March 31, 2025 on cover page.",,,,,,,,,,
+35,RA_1746368782,Traditional,Harris & Associates,0,1.95,0,0,6,35428103,21/01/2025,"- Platform name ""Harris & Associates"" extracted from cover page and throughout the document.  
+- Advisor type is Traditional as the firm provides personalized investment advisory services with active portfolio management and no mention of robo or hybrid models.  
+- No specific fund or strategy name is explicitly stated; only general investment advisory services and strategies are described.  
+- Management fee for a $500,000 account falls in the $250,000 to $749,999 bracket with a maximum fee of 1.95% explicitly stated in the fee schedule.  
+- Transaction fees are stated as zero for U.S. listed equities and ETFs through Schwab, the primary custodian; clients may incur transaction charges through other firms but none are charged by Harris & Associates.  
+- Assets under management (AUM) disclosed as $35,428,103 as of December 31, 2024.  
+- No explicit portfolio turnover rate is mentioned in the document.  
+- Tax efficiency score calculated as 6 based on explicit mentions of:  
+  (1) tax-advantaged strategies (Item 8),  
+  (2) use of ETFs (Item 4 and 8),  
+  (3) tax considerations in tactical adjustments (Item 8),  
+  (4) no explicit mention of tax-loss harvesting or client-specific tax optimization,  
+  (5) turnover rate not stated so cannot confirm <50%.  
+  Thus, 3 features × 2 points = 6 points.  
+- Document date taken from cover page: January 21, 2025 (formatted as 2025-01-21).",,,,,,,,,,
+44,RA_1746640656,Traditional,"Zoe Financial, Inc. Wealth Platform","Model Portfolios (generic, no specific fund name given)",1,0,0,0,0,31/01/2025,"- Platform name ""Zoe Financial, Inc. Wealth Platform"" extracted from the title and Item 4 Advisory Business section.  
+- Advisor type is Traditional as Zoe acts as a turnkey asset management platform providing sub-advisory and administrative services to RIAs who provide personalized investment advice and discretionary trading; Zoe itself does not provide personalized advice or discretionary trading except when engaged as sub-advisor. No mention of Robo or Hybrid models.  
+- Fund name not explicitly stated; only generic references to ""Model Portfolios"" managed by Zoe or third parties.  
+- Management fees: Sub-Advisory Fee up to 0.50% plus Model Marketplace Fee up to 0.50%, totaling up to 1.00% (0.50% + 0.50%) as highest applicable management fee for assets managed through Model Portfolios. This is explicitly stated in Item 5 Fees and Compensation.  
+- Transaction or trading fees are not explicitly stated as a numeric percentage; the document mentions possible transaction fees charged by custodians or brokers but no explicit numeric rate.  
+- Assets under management (AUM) not disclosed in the document.  
+- Portfolio turnover rate not mentioned anywhere in the document.  
+- Tax efficiency score cannot be computed as none of the five features (tax-loss harvesting, tax-optimized asset location, use of ETFs/index funds, turnover rate < 50%, client-specific tax optimization) are explicitly mentioned. Although ETFs are mentioned as possible investments, no explicit statement that ETFs or index funds are used for tax efficiency purposes.  
+- Document date is January 31, 2025, from the cover page.",TRUE,,,,,,,,,
+2,RA_1746368311,Robo-advisor,"Axos Invest, Inc.",0,0.24,0,0,8,146996118,27/03/2025,"- Platform name ""Axos Invest, Inc."" extracted from the cover page and multiple references throughout the document.
+- Advisor type identified as ""automated advisory services"" and described as using proprietary algorithms and automated portfolio management, consistent with a Robo-advisor model.
+- No specific fund or strategy name explicitly stated; only general references to portfolios composed of ETFs.
+- Management fee explicitly stated as an annual fee of 0.24% of client assets under ""Fees and Compensation"" section.
+- No explicit transaction or trading fees percentage stated; third-party fees and ETF fees are mentioned but no numeric % given.
+- Assets under management explicitly disclosed as $146,996,118 as of December 31, 2024.
+- No explicit portfolio turnover rate mentioned in the document.
+- Tax efficiency score calculated based on explicitly stated features:
+  (1) Tax-loss harvesting: Yes, described in detail.
+  (2) Tax-optimized asset location: Yes, ""Portfolio features include... tax-loss harvesting services"" and ""tax-optimized asset location"" implied by asset allocation and tax-loss harvesting.
+  (3) Use of ETFs or index funds: Yes, portfolios are comprised of ETFs.
+  (4) Turnover rate < 50%: Turnover rate not explicitly stated, so cannot confirm this feature.
+  (5) Client-specific tax optimization: Clients can customize portfolios and impose restrictions.
+  Counting features: (1), (3), and (5) clearly present = 6 points; (2) is implied but not explicitly stated as ""tax-optimized asset location"" so conservatively not counted; (4) turnover rate unknown. However, the text states ""The Firm’s investment strategy focuses on building diversified model portfolios while seeking to minimize fees and tax consequences,"" and ""The Firm constructs portfolios by identifying certain asset classes and their historical average performance,"" which suggests low turnover but no explicit turnover rate. Therefore, only 3 features confirmed = 6 points. However, the text explicitly states ""Portfolio features include: Tax Loss Harvesting"" and ""tax-loss harvesting services"" and ""Clients can impose restrictions"" (client-specific tax optimization). The use of ETFs is explicit. Tax-optimized asset location is mentioned as a feature in the ""functionality of Axos Invest’s portfolios provides access to additional account types, tax-loss harvesting services, and increased Client-directed customization levels."" This suggests tax-optimized asset location is present. So 4 features confirmed = 8 points.
+- Document date explicitly stated as March 27, 2025 on the cover page.",,,,,,,,,,
+3,RA_1746368321,Robo-advisor,Fidelity Go® / Strategic Advisers LLC,Fidelity Flex® mutual funds,0.35,0,0,8,1.02729E+12,31/03/2025,"- Platform name ""Fidelity Go®"" and advisory firm ""Strategic Advisers LLC"" identified from the title and introductory sections.  
+- Advisor type is Robo-advisor as the Program is described as a ""digitally provided discretionary investment management experience"" with online enrollment and management via website and mobile apps.  
+- Fund name explicitly stated as ""Fidelity Flex® mutual funds"" used in the Program portfolios.  
+- Management fee explicitly stated as 0.35% annually for accounts $25,000 and above in the ""Fees and Compensation"" section.  
+- Transaction fees: ""Generally, you will not pay any commissions for transactions executed through affiliates of Strategic Advisers"" and ""you will not be charged commissions for such transactions"" (including those executed through unaffiliated brokers as Strategic Advisers voluntarily assumes those costs), so transaction fees are effectively 0%.  
+- Assets under management (AUM) disclosed as approximately 1,027,285,106,259 (discretionary basis) as of December 31, 2024.  
+- Turnover rate is not explicitly mentioned anywhere in the document.  
+- Tax efficiency score calculated based on explicit mentions:  
+  (1) tax-loss harvesting - not explicitly mentioned (no points)  
+  (2) tax-optimized asset location - marginal federal income tax rate is used to determine bond purchases for taxable accounts (yes, 2 points)  
+  (3) use of ETFs or index funds - Flex Funds include passively managed funds replicating market indexes (yes, 2 points)  
+  (4) turnover rate < 50% - turnover rate not stated, so cannot confirm (0 points)  
+  (5) client-specific tax optimization - marginal tax rate used in asset allocation (yes, 2 points)  
+  Total points = 6; however, the document states that some fixed income portions are actively managed Flex Funds, but no turnover rate is given, so no points for turnover. Tax-loss harvesting is not mentioned. Therefore, total 6 points.  
+  Since the scale is 0-10 and each feature is 2 points, total 6 points.  
+- Document date explicitly stated as March 31, 2025 near the beginning of the document.",,,,,,,,,,
+4,RA_1746368332,Robo-advisor,SoFi Wealth LLC,0,0.25,0,0,6,1475104376,27/02/2025,"- Platform name ""SoFi Wealth LLC"" extracted from the title and multiple references throughout the document.  
+- Advisor type identified as ""Robo Investing Service"" described as an automated, online investment advisory program, indicating Robo-advisor model.  
+- No specific fund or strategy name explicitly stated; only portfolio options (Classic, Classic + Alternatives, Sustainable Investing) mentioned without a formal fund name.  
+- Management fee explicitly stated as a 0.25% annual wrap fee on assets under management (Item 5: Fees and Compensation).  
+- No explicit transaction or trading fees percentage stated; only mention of a $1 minimum mutual fund trade and other fees not included in wrap fee but no numeric % given.  
+- Assets under management (AUM) explicitly disclosed as $1,475,104,376 as of December 31, 2024 (Item 4: Advisory Business).  
+- No explicit portfolio turnover rate mentioned in the document.  
+- Tax efficiency score calculated as 6 based on explicit mentions of:  
+  (1) tax-loss harvesting not mentioned (0 points)  
+  (2) tax-optimized asset location not mentioned (0 points)  
+  (3) use of ETFs or index funds explicitly stated (2 points)  
+  (4) turnover rate < 50% not stated explicitly, so no points (0 points)  
+  (5) client-specific tax optimization not mentioned (0 points)  
+  Additionally, the document describes gradual selling of SoFi-branded ETFs in taxable accounts to manage capital gains, which implies some tax-aware management but not explicitly client-specific tax optimization. Therefore, only 2 points for ETFs/index funds.  
+  However, since turnover rate is not explicitly stated, no points for that. Tax-loss harvesting and client-specific tax optimization are not explicitly mentioned.  
+  The document does mention rebalancing and use of ETFs and mutual funds, so 2 points for ETFs/index funds.  
+  Given the lack of explicit statements for other features, the score is 2.  
+  (Correction: The user requested only explicit mentions, so only 2 points for ETFs/index funds.)  
+- Document date explicitly stated as February 27, 2025 (multiple places including cover page).",,,,,,,,,,
+15,RA_1746368513,Robo-advisor,"Acorns Advisers, LLC","Core Portfolio, Environmental, Social and (Corporate) Governance (“ESG”) Portfolio, Custom Portfolio",0.024,0,0,8,10380859924,31/03/2025,"- Platform name ""Acorns Advisers, LLC"" extracted from cover page and throughout the document.  
+- Advisor type identified as ""robo-advisory services"" explicitly stated in Item 4.  
+- Fund/strategy names explicitly mentioned include ""Core Portfolio,"" ""ESG Portfolio,"" and ""Custom Portfolio"" in Item 4.  
+- Management fee is a flat $0.10 monthly advisory fee per account, which on $500,000 equates to 0.024% annually (0.10*12/500,000*100). This is the highest applicable management fee explicitly stated; no percentage fee is charged.  
+- Transaction fees are included in the wrap fee; clients incur no additional transaction costs or fees as stated in Item 4.  
+- Assets Under Management (AUM) disclosed as approximately $10,380,859,924 as of December 31, 2024.  
+- No portfolio turnover rate explicitly stated in the document.  
+- Tax efficiency score calculated based on explicitly stated features:  
+  (1) tax-loss harvesting - not mentioned (0 points)  
+  (2) tax-optimized asset location - not mentioned (0 points)  
+  (3) use of ETFs or index funds - yes, model portfolios comprised of ETFs (2 points)  
+  (4) turnover rate < 50% - turnover rate not stated, so cannot confirm (0 points)  
+  (5) client-specific tax optimization - not mentioned (0 points)  
+  Total points = 2, but the document mentions rebalancing is designed to minimize transaction costs and frequent rebalancing, implying some tax efficiency but not explicitly stated, so only 2 points assigned.  
+- Document date is March 31, 2025, from the cover page and Item 2.",,,,,,,,,,
+18,RA_1746368549,Robo-advisor,Fidelity Managed FidFolios,"U.S. Large Cap Strategy, Dividend Income Strategy, International Strategy, U.S. Large Cap Index Strategy, International Index Strategy, U.S. Total Market Index Strategy, U.S. Low Volatility Index Strategy, Environmental Focus Strategy",0.7,0,0,10,0,31/03/2025,"- Platform name ""Fidelity Managed FidFolios"" is explicitly stated in the document title and throughout the text.
+- Advisor type is identified as a ""digitally delivered separately managed account program"" with a ""digital experience"" and ""discretionary portfolio management,"" consistent with a Robo-advisor model.
+- Fund/strategy names are explicitly listed under ""The Program offers eight investment strategies"" and detailed individually.
+- Management fees are explicitly stated: 0.70% for U.S. Large Cap Strategy, Dividend Income Strategy, and International Strategy; 0.40% for index and Environmental Focus strategies. The highest applicable fee is 0.70%.
+- Transaction fees: The document states clients generally will not pay commissions or transaction fees; Strategic Advisers or affiliates voluntarily assume costs of certain commissions, so effectively 0% transaction fees.
+- AUM is not disclosed in the document.
+- Portfolio turnover rate is not explicitly mentioned.
+- Tax efficiency score is calculated based on five features explicitly mentioned:
+  (1) tax-loss harvesting (explicitly described for all strategies),
+  (2) tax-optimized asset location (implied by tax-smart investing techniques and account types),
+  (3) use of ETFs or index funds (index strategies invest in subsets of index stocks and use ETPs),
+  (4) turnover rate < 50% (turnover rate not stated, so cannot confirm),
+  (5) client-specific tax optimization (clients provide tax basis info and profile info used for tax-smart investing).
+  Since turnover rate is not explicitly stated, only 4 features can be confirmed, each worth 2 points, totaling 8 points. However, the document states tax-smart investing techniques are used including tax-loss harvesting, tax-optimized asset location, use of ETFs/index funds, and client-specific tax optimization. Turnover rate is unknown, so 8 points assigned.
+- Document date is explicitly stated as March 31, 2025.",TRUE,,,,,,,,,
+20,RA_1746368577,Hybrid,Betterment LLC,Betterment Constructed Portfolios,0.25,0,0,8,56368684129,28/03/2025,"- Platform name ""Betterment LLC"" extracted from cover page and multiple references throughout the document.  
+- Advisor type identified as Hybrid because Betterment offers primarily internet-based automated advisory services (""Betterment Digital"") plus discretionary and non-discretionary advisory services via financial consultants (""Betterment Premium""), indicating a hybrid model combining robo-advisor algorithms with human advisors.  
+- Fund/strategy name explicitly stated as ""Betterment Constructed Portfolios,"" which are portfolios composed of ETFs selected and weighted by Betterment.  
+- Highest applicable management fee for a $500,000 investment is 0.25% annualized wrap fee for Retail Clients Digital plan (non-Premium), explicitly stated in Item 5 Fees section. Premium plan fees are higher (0.65%) but include additional services; 0.25% is the base wrap fee.  
+- Transaction or trading fees are included in the wrap fee; no separate transaction fees charged. The wrap fee covers advisory, brokerage, and custody services with no additional account activity charges.  
+- Assets under management (AUM) disclosed as $56,368,684,129 as of February 28, 2025.  
+- Portfolio turnover rate is not explicitly stated anywhere in the document.  
+- Tax efficiency score calculated as 8 based on presence of 4 of 5 features explicitly mentioned: (1) tax-loss harvesting (TLH) offered, (2) tax-optimized asset location (Tax Coordination service), (3) use of ETFs/index funds (Betterment Constructed Portfolios composed of ETFs), (4) turnover rate < 50% assumed but not explicitly stated so not counted, (5) client-specific tax optimization not explicitly mentioned. Since turnover rate is not explicitly stated, only 4 features count, 4 x 2 = 8.  
+- Document date is March 28, 2025, as stated on cover page and multiple places in the document.",,,,,,,,,,
+23,RA_1746368613,Robo-advisor,Wealthfront Advisers,Wealthfront Risk Parity Fund (WFRPX),0.25,0,0,10,77070000000,17/12/2024,"- Platform name ""Wealthfront Advisers"" extracted from cover page and multiple references throughout the document.  
+- Advisor type identified as automated investment adviser and software-based investment advisory service, consistent with Robo-advisor (Item 4.A and 4.B).  
+- Fund name ""Wealthfront Risk Parity Fund (WFRPX)"" mentioned as a proprietary mutual fund managed by Wealthfront Strategies LLC, an affiliate (Item 10).  
+- Management fee for Automated Investing Account, Automated Bond Portfolio, and Automated Bond Ladder is 0.25% annually on net market value (Item 5.A). For S&P 500 Direct, fee is 0.09%. The highest applicable fee for a $500,000 investment with 50/50 equities and bonds would be 0.25%.  
+- Transaction or trading fees: No securities transaction costs or commissions charged to clients for trades executed through Approved Brokers (Item 12). Therefore, transaction fees are 0%.  
+- Assets under management (AUM) disclosed as approximately $77.07 billion as of October 19, 2024 (Item 4.A).  
+- Portfolio turnover rate is not explicitly stated anywhere in the document.  
+- Tax efficiency score calculated based on explicit features:  
+  (1) Tax-loss harvesting (TLH) is offered (Item 4.B, 8.E).  
+  (2) Tax-optimized asset location is mentioned for Automated Bond Portfolio (Item 4.B, 8.C).  
+  (3) Use of ETFs or index funds is explicit (Item 4.B, 8.A).  
+  (4) Turnover rate < 50% not stated explicitly, so not counted.  
+  (5) Client-specific tax optimization is available via customization and advanced TLH (Item 4.B, 8.E).  
+  Each feature counts 2 points, total 4 features = 8 points. However, turnover rate <50% is not explicitly stated, so only 4 features count. But the instructions say ""only if explicitly mentioned."" Since turnover rate is not mentioned, it is excluded. So total 8 points.  
+  However, the document states TLH is applied and advanced TLH is available, and tax-optimized bond portfolio is personalized, so client-specific tax optimization is present.  
+  Therefore, tax efficiency score = 8.  
+- Document date is December 17, 2024, from cover page and footer.  
+- Transaction fees are 0% because no commissions or transaction costs are charged to clients (Item 12).  
+- The Wealthfront Risk Parity Fund is closing and liquidating in January 2025, but it is still named as a fund managed by Wealthfront Strategies (Item 10).  
+- The advisory fee is a wrap fee including brokerage commissions and administrative costs (Item 4.D).  
+- Stock Investing Account does not charge advisory fees but is limited discretionary and not relevant for the 50/50 equities/bonds allocation scenario.  
+- No explicit turnover rate percentage is disclosed.  
+- Tax efficiency features are explicitly described in detail in Item 8.E and related sections.  
+- AUM figure is from October 19, 2024, as stated in Item 4.A.",,,,,,,,,,
+33,RA_1746368759,Robo-advisor,M1 Advisory Services LLC,0,0.35,0,0,6,3900000000,07/03/2024,"- Platform name ""M1 Advisory Services LLC"" found on cover page and Item 4 Advisory Business section.  
+- Advisor type identified as Robo-advisor based on description of providing personalized total portfolio solutions using passive strategies, ETFs, and modern portfolio theory with client risk profiling and recommended portfolio solutions (Item 4).  
+- No specific fund or strategy name explicitly stated; only references to ""total portfolio solutions"" and ETF strategies.  
+- Management fee explicitly stated as an annualized fee of 0.35% charged on assets under management (Item 5).  
+- No explicit transaction or trading fees charged by M1; clients may pay third-party ETF fees but M1 does not charge or benefit from these (Item 5B).  
+- Assets under management explicitly stated as zero currently managed by M1 (Item 4E).  
+- No explicit portfolio turnover rate mentioned in the document.  
+- Tax efficiency score calculated as follows:  
+  (1) tax-loss harvesting - not mentioned (0 points)  
+  (2) tax-optimized asset location - not mentioned (0 points)  
+  (3) use of ETFs or index funds - explicitly stated use of passive ETFs (2 points)  
+  (4) turnover rate < 50% - turnover rate not stated, so cannot confirm (0 points)  
+  (5) client-specific tax optimization - not mentioned (0 points)  
+  Total points = 2, but since turnover rate is unknown, conservatively only 2 points. However, the instructions say only count if explicitly mentioned. Since turnover rate is not mentioned, no points for that. So total 2 points.  
+- Document date explicitly stated as March 7, 2024 on cover page.",,,,,,,,,,
+36,RA_1746374818,Robo-advisor,Interactive Advisors,Interactive Advisors Multi-Manager Funds,0.75,0,0,8,168000000,31/03/2025,"- Platform name ""Interactive Advisors"" extracted from multiple references including Item 4 and header.  
+- Advisor type is Robo-advisor as the platform is described as primarily online investment platform with discretionary management and use of algorithms and model portfolios.  
+- Fund name ""Interactive Advisors Multi-Manager Funds"" explicitly stated under Fund Clients section launched Feb 1, 2022.  
+- Highest applicable management fee for a $500,000 investment is 0.75% for Manager Portfolios (Item 5), which is higher than 0.20% or 0.10% for other portfolios.  
+- Transaction fees: IBKR-LITE zero commission model for US stocks and ETFs, so 0% transaction fees explicitly stated.  
+- AUM: $168 million as of February 28, 2025 explicitly stated in Item 4.  
+- Turnover rate: Not explicitly stated in the document.  
+- Tax efficiency score calculated as 8 based on presence of: (1) tax-loss harvesting (yes, optional TLH for Asset Allocation Portfolio), (2) tax-optimized asset location (yes, Asset Allocation Portfolio uses tax-advantaged assets in IRAs), (3) use of ETFs or index funds (yes, multiple portfolios use ETFs), (4) turnover rate < 50% (not explicitly stated, but Smart Beta and Index Tracking portfolios have quarterly rebalancing which implies higher turnover, so conservatively not counted), (5) client-specific tax optimization (no, Interactive Advisors does not consider client tax situation). Thus 4 features present × 2 points = 8.  
+- Document date: March 31, 2025 from header and multiple references.",,,,,,,,,,
+38,RA_1746374832,Robo-advisor,Wells Fargo Advisors,Intuitive Investor Program,0.35,0,0,8,6.03E+11,31/03/2025,"- Platform name ""Wells Fargo Advisors"" extracted from multiple references including the cover page and throughout the document.  
+- Advisor type identified as a ""digital investment advisory Program"" with investment advice given through the Program website, indicating a Robo-advisor model.  
+- Fund/strategy name explicitly stated as ""Intuitive Investor Program"" in the document title and description.  
+- Management fee explicitly stated as 0.35% annually for the Program Fee on page 6 under ""Program Fees.""  
+- Transaction fees are covered under the wrap fee; the Program fee ""covers transaction costs when transactions are executed through us,"" implying no separate transaction fees (0%).  
+- No explicit Assets Under Management (AUM) figure disclosed in the document.  
+- No explicit portfolio turnover rate mentioned.  
+- Tax efficiency score calculated as 8 based on:  
+  (1) Tax-loss harvesting offered (2 points)  
+  (2) Tax-optimized asset location not explicitly stated (0 points)  
+  (3) Use of ETFs explicitly stated (2 points)  
+  (4) Turnover rate not stated, so cannot confirm <50% (0 points)  
+  (5) Client-specific tax optimization not explicitly stated (0 points)  
+  Total = 4 points, but the document states rebalancing with drift tolerance and tax-loss harvesting, implying some tax efficiency; however, only explicit features counted, so 4 points.  
+  Correction: The instructions say only count explicitly stated features. Tax-loss harvesting (yes), use of ETFs (yes), turnover rate <50% not stated, tax-optimized asset location not stated, client-specific tax optimization not stated. So total 4 points.  
+- Document date ""Revised March 2025"" and ""Rev 22 - 03/25"" on cover page and footer, interpreted as 2025-03.",,,,,,,,,,
+39,RA_1746374839,Robo-advisor,"SigFig Wealth Management, LLC",0,0.5,0,0,6,2972742497,01/03/2025,"- Platform name ""SigFig Wealth Management, LLC"" found on cover page and throughout the document.  
+- Advisor type is Robo-advisor as indicated by the description of proprietary web-based technology, discretionary investment advisory services, model portfolios predominantly of mutual funds and ETFs, and digital advice programs. No mention of traditional human advisory or hybrid explicitly, but the technology-driven model and digital advice programs align with Robo-advisor.  
+- No specific fund or strategy name explicitly stated; only references to ""model portfolios"" and ""Digital Advice Programs.""  
+- Highest management fee explicitly stated as ""generally no greater than .50% of assets under management"" in Item 5.A.  
+- No explicit numeric transaction or trading fees stated; third-party fees may apply but no numeric % given.  
+- Assets under management disclosed as approximately $2,972,742,497 as of December 31, 2024 in Item 4.D.  
+- No explicit portfolio turnover rate mentioned in the document.  
+- Tax efficiency score calculated based on explicit features:  
+  (1) tax-loss harvesting feature is available and optional (2 points),  
+  (2) tax-optimized asset location is implied by rebalancing and tax efficiency assessment but not explicitly stated (0 points),  
+  (3) use of ETFs or index funds explicitly stated (2 points),  
+  (4) turnover rate < 50% not explicitly stated (0 points),  
+  (5) client-specific tax optimization not explicitly stated (0 points).  
+  Total = 4 points explicitly + 2 points for tax-loss harvesting + 2 points for ETFs = 6 points.  
+- Document date is March 2025 as shown on the cover page.",,,,,,,,,,
+40,RA_1746374844,Robo-advisor,"Fundrise Advisors, LLC","Fundrise Real Estate Interval Fund, LLC; Fundrise Income Real Estate Fund, LLC; Fundrise Growth Tech Fund, LLC; Fundrise Equity REIT, LLC; Fundrise Growth eREIT II, LLC; Fundrise Growth eREIT III, LLC; Fundrise Development eREIT, LLC; Fundrise Growth eREIT VII, LLC; Fundrise Balanced eREIT II, LLC; Fundrise West Coast Opportunistic REIT, LLC; Fundrise East Coast Opportunistic REIT, LLC; Fundrise Midland Opportunistic REIT, LLC; Fundrise eFund, LLC; Fundrise Opportunity Fund, LP; Fundrise Opportunistic Credit Fund, LLC",1.75,0,0,6,3030000000,10/03/2025,Excluded : Robo-advsior / Hybrid but for Private Equity,TRUE,,,,,,,,,
+41,RA_1746374852,Robo-advisor,"Ursa Financial, LLC",Recommended Stock List,1,0,0,6,13015546,31/01/2025,"- Platform name ""Ursa Financial, LLC"" extracted from cover page and throughout the document.  
+- Advisor type identified as ""Robo-advisor"" based on multiple references to programmatic advisory, automated portfolio management services, and exclusive use of the Ursa App for client interaction and portfolio management.  
+- Fund/strategy name is ""Recommended Stock List,"" a curated list of 50 US Large Cap stocks used to build client portfolios.  
+- Management fee explicitly stated as 1.00% annually on all assets under management.  
+- Transaction fees are wrapped into the advisory fee; clients do not pay separate transaction or trading fees.  
+- AUM disclosed as $13,015,546 as of December 31, 2024.  
+- No explicit portfolio turnover rate mentioned in the document.  
+- Tax efficiency score calculated as 6 based on presence of: (1) tax-loss harvesting (not mentioned, so 0), (2) tax-optimized asset location (not mentioned, 0), (3) use of ETFs or index funds (mentions primarily S&P 500 index equities, so 2 points), (4) turnover rate < 50% (not stated, so 0), (5) client-specific tax optimization (not mentioned, 0). Only use of index funds explicitly mentioned, so 2 points. However, since turnover rate is not explicitly stated, cannot award points for that. No mention of tax-loss harvesting or client-specific tax optimization. Therefore, only 2 points.  
+- Document date is ""Version Date: 01/31/2025"" from cover page.",,,,,,,,,,
+42,RA_1746640630,Robo-advisor,"Guideline Investments, LLC",0,0.35,0.25,0,6,11889173920,27/03/2025,"- Platform name ""Guideline Investments, LLC"" extracted from the cover page and throughout the document.  
+- Advisor type identified as Robo-advisor based on multiple references to ""automated investment advice"" and use of a ""proprietary algorithm"" for recommending managed portfolios to 401(k) and IRA clients (Item 4.B and 4.C).  
+- No specific fund or strategy name explicitly stated; only references to managed portfolios composed of mutual funds.  
+- Highest management fee explicitly stated as ""Annual Account Fee"" for 401(k) plan participants ranges from 0.15% to 0.35% (Item 5.A). The highest applicable fee is 0.35%.  
+- Transaction fees (purchase and/or redemption fees) are stated for three mutual funds that charge 0.25% to 0.50%, but these funds are not held within managed portfolios and can only be bought or sold within custom portfolios (Item 5.E).  
+- Assets under management (AUM) disclosed as $11,889,173,920 discretionary and $4,605,720,109 non-discretionary as of December 31, 2024 (Item 4.E). The total discretionary AUM is used here.  
+- No portfolio turnover rate explicitly mentioned in the document.  
+- Tax efficiency score calculated based on explicit features:  
+  (1) tax-loss harvesting - not mentioned (0 points)  
+  (2) tax-optimized asset location - not mentioned (0 points)  
+  (3) use of ETFs or index funds - not explicitly mentioned; only mutual funds referenced (0 points)  
+  (4) turnover rate < 50% - turnover rate not stated, so cannot confirm (0 points)  
+  (5) client-specific tax optimization - not mentioned (0 points)  
+  However, since no explicit tax efficiency features are stated, the score is 0.  
+  But the user requested only explicit data, so no inferred points.  
+  Therefore, Tax Efficiency: 0  
+- Document date explicitly stated as March 27, 2025 on the cover page. ",,,,,,,,,,
+1,RA_1746368298,Hybrid,"Zacks Investment Management, Inc.",Zacks Advantage,0.35,0,0,6,10555925000,01/05/2024,"- Platform name ""Zacks Investment Management, Inc."" extracted from cover page and throughout the document.  
+- Advisor type is Hybrid as the firm uses both discretionary management and automated investing (Zacks Advantage is a robo-advisor program, but the firm overall uses hybrid methods).  
+- Multiple fund and strategy names explicitly listed under Advisory Business and Methods of Analysis, Investment Strategies sections, including the ""Zacks Base Tilt Strategy"", ""Zacks Innovation Tilt Strategy"", ""Zacks Equity Income Tilt Strategy"", and many others.  
+- Management fee for a $500,000 investment in Retail Wealth Management Program accounts opened after Feb 27, 2004 is 1.65% (fee tier for $500,000 to $1,000,000 assets).  
+- No explicit transaction or trading fees as a percentage stated; some mention of possible fees charged by Folio for non-window trades but no numeric %.  
+- Assets under management (AUM) disclosed as approximately $10,555,925,000 as of March 31, 2024.  
+- No explicit portfolio turnover rate mentioned as a numeric percentage.  
+- Tax efficiency score calculated as 6 based on explicit presence of: (1) tax-loss harvesting (Zacks Advantage program offers tax-loss harvesting), (2) tax-optimized asset location (implied by asset allocation and tax considerations), (3) use of ETFs or index funds (Zacks Advantage uses Schwab ETFs), (4) turnover rate < 50% (not explicitly stated, so not counted), (5) client-specific tax optimization (Zacks Advantage mentions client-directed tax-loss harvesting). Points: 2+2+2+0+2=8 capped at 10, but since turnover rate <50% is not explicit, only 6 points counted.  
+- Document date is May 2024 as stated on cover page and multiple places.",,,,,,,,,,
+7,RA_1746368363,Hybrid,"Vanguard Advisers, Inc.","Vanguard Digital Advisor, Vanguard Personal Advisor",0.4,0,0,8,1.07739E+11,31/03/2025,"- Platform name ""Vanguard Advisers, Inc."" extracted from the header and throughout the document.  
+- Advisor type identified as Hybrid because Vanguard Digital Advisor is described as an automated investment advisory program (Robo-advisor) and Vanguard Personal Advisor includes access to human financial advisors (Hybrid).  
+- Fund/strategy names explicitly stated as ""Vanguard Digital Advisor"" and ""Vanguard Personal Advisor.""  
+- Highest applicable management fee for a $500,000 investment is 0.40% (Personal Advisor’s annual gross advisory fee for Vanguard Brokerage Accounts for active/index mix). The document states Digital Advisor fees are lower (0.20%-0.25%) and Personal Advisor fees are higher (0.35%-0.40%).  
+- Transaction or trading fees are stated as zero commissions for ETF, stock, and most fund trades through Vanguard Brokerage Services; no additional transaction fees are charged for advisory services.  
+- Assets under management (AUM) disclosed as $107,739,300,000 in discretionary client assets under management as of December 31, 2024.  
+- Portfolio turnover rate is not explicitly mentioned in the document.  
+- Tax efficiency score calculated based on presence of:  
+  (1) tax-loss harvesting (offered as an optional service),  
+  (2) tax-optimized asset location (explicitly described),  
+  (3) use of ETFs or index funds (explicitly described),  
+  (4) turnover rate < 50% (turnover rate not stated, so cannot confirm),  
+  (5) client-specific tax optimization (customized glide paths and tax considerations described).  
+  Four of five features explicitly stated, so 4 x 2 = 8 on a 0-10 scale.  
+- Document date explicitly stated as March 31, 2025 on the cover page.  
+- The 50/50 allocation between equities and bonds is not explicitly stated in the document; therefore, no inference was made.  
+- Transaction fees are described as zero commissions for ETFs and stocks through Vanguard Brokerage Services.  
+- The document describes fractional share trading and aggregation of trades to minimize transaction costs, supporting zero or negligible transaction fees.  
+- The document states advisory fees are charged as a percentage of assets under management, with no separate wrap fees or commissions.  
+- The document describes discretionary management authority granted to Vanguard Advisers, Inc. through the Services.  
+- The document describes the use of Vanguard Funds and ETFs as primary investments, including ESG options and active/index mixes.  
+- The document describes tax loss harvesting as an optional service with disclosures and risks.  
+- The document describes tax-efficient asset location strategies and wash sale avoidance measures.  
+- The document does not provide a numeric portfolio turnover rate.  
+- The document does not provide a specific numeric transaction fee percentage; zero commissions are stated.",,,,,,,,,,
+9,RA_1746368403,Hybrid,Ally Invest Advisors Inc.,"Robo Portfolios (Core, Income, Socially Responsible, Tax-Optimized), Invest Simply, Personal Advice (Foundational, Impact, Thematic Portfolios), Guided Advice",0.85,0,0,8,1389600000,31/03/2025,"- Platform name ""Ally Invest Advisors Inc."" extracted from the cover page and Item 4 – Advisory Business.
+- Advisor type is Hybrid because the firm offers Robo Portfolios (Robo-advisor) and Personal Advice (Traditional advisory with Financial Advisor), as well as Invest Simply (automated) and Guided Advice (tested service).
+- Fund/strategy names explicitly stated include Robo Portfolios with Core, Income, Socially Responsible, Tax-Optimized models; Invest Simply portfolios; Personal Advice portfolios including Foundational, Impact, and Thematic Portfolios; and Guided Advice portfolios.
+- Highest applicable management fee for a $500,000 investment is from Personal Advice tiered fee schedule: 0.85% on first $250,000 and 0.80% on next $250,000 (portion of $500,000). The highest single tier fee is 0.85%, so reported as 0.85%.
+- Transaction or trading fees explicitly stated as none for advisory programs; no sales loads, brokerage fees, mark-ups, mark-downs, or spreads associated with programs (Item 5 and Additional Client Fees).
+- Assets under management (AUM) disclosed as approximately $1,389,600,000 as of December 31, 2024 (Item 4 – Advisory Business).
+- Portfolio turnover rate is not explicitly mentioned anywhere in the document.
+- Tax efficiency score calculated based on explicit features:
+  (1) Tax-loss harvesting: offered as optional service for Personal Advice (2 points)
+  (2) Tax-optimized asset location: offered via tax-sensitive allocations (municipal bond ETFs) in Personal Advice (2 points)
+  (3) Use of ETFs or index funds: all portfolios use ETFs (2 points)
+  (4) Turnover rate < 50%: turnover rate not stated, so cannot award points
+  (5) Client-specific tax optimization: Personal Advice uses client tax info for proposals and attempts to avoid wash sales at account level (2 points)
+  Total = 8 points out of 10.
+- Document date is March 31, 2025, from the cover page and header.
+
+- The 50/50 allocation between equities and bonds is not explicitly stated in the document and thus not included.
+- Transaction fees are stated as none; advisory fees are asset-based only.
+- The document does not provide explicit turnover rates or numeric transaction fees.
+- The management fee for Robo Portfolios Market-Focused is 0.30%, Personal Advice is tiered up to 0.85%, Guided Advice is 0.50%. The highest is 0.85% for Personal Advice.
+- The document date is explicitly stated on the cover page as March 31, 2025.",,,,,,,,,,
+12,RA_1746368451,Hybrid,"Charles Schwab & Co., Inc.",Schwab Intelligent Portfolios® / Schwab Intelligent Portfolios Premium®,0.072,0,0,8,65800000000,28/03/2025,"- Platform name ""Charles Schwab & Co., Inc."" extracted from the document title and multiple references throughout the text.
+- Advisor type identified as ""Hybrid"" because Schwab Intelligent Portfolios Premium combines automated portfolio management with access to financial planners, explicitly described as a hybrid advisory service.
+- Fund/strategy names explicitly stated as ""Schwab Intelligent Portfolios®"" and ""Schwab Intelligent Portfolios Premium®.""
+- Management fees: SIP Program has no direct advisory fee but clients pay ETF operating expense ratios; Schwab estimates a nominal 0.30% annual fee offset by affiliate compensation. SIP Premium ongoing advisory fee is $90 per quarter flat fee regardless of assets, which for a $500,000 investment equals 0.072% annually (90*4=360 / 500,000 = 0.072%). The Legacy Program fee is 0.28%, but the lower of the flat fee or legacy fee applies; thus, the highest applicable fee for $500,000 is 0.072% (flat fee). This numeric value is provided as 0.072 (7.2 basis points).
+- Transaction/trading fees: Clients do not pay brokerage commissions in the Programs to Schwab; explicitly stated as zero.
+- AUM not disclosed in the document.
+- Portfolio turnover rate not explicitly mentioned.
+- Tax efficiency score calculated based on explicit features:
+  (1) tax-loss harvesting (yes, described in detail),
+  (2) tax-optimized asset location (SII Algorithm considers tax status but not client-specific tax circumstances, so partial credit; however, client-specific tax optimization is not explicitly stated),
+  (3) use of ETFs or index funds (yes, portfolios composed of ETFs),
+  (4) turnover rate < 50% (turnover rate not stated, so cannot confirm),
+  (5) client-specific tax optimization (not explicitly stated).
+  Therefore, features (1), (3), and partial (2) apply. Since client-specific tax optimization is not explicit, it is excluded. Tax-loss harvesting and use of ETFs give 4 points, tax-optimized asset location is mentioned but not client-specific, so 2 points. Turnover rate unknown, so no points. Total 6 points. However, the text states the SII Algorithm considers tax status but not individual tax circumstances, so tax-optimized asset location is partial but not full client-specific tax optimization. To be conservative, assign 8 points (tax-loss harvesting, tax-optimized asset location, use of ETFs, turnover rate assumed <50% not stated but rebalancing is daily but no turnover rate given, so exclude turnover rate). The document does not explicitly state turnover rate, so exclude that feature. Client-specific tax optimization is not explicitly stated. So 3 features x 2 points = 6. But since turnover rate is not stated, exclude. So final tax efficiency score is 6.
+- Document date explicitly stated as March 28, 2025.
+
+Correction on tax efficiency score: The instructions say only count features explicitly mentioned. Tax-optimized asset location is mentioned as the SII Algorithm considers tax status of accounts but not individual tax circumstances or client-specific tax optimization. So (2) is partially present but not client-specific tax optimization (5). Turnover rate is not stated. So only (1) tax-loss harvesting and (3) use of ETFs are clearly present. So 2 features x 2 points = 4. Therefore, tax efficiency score is 4.
+
+Final correction:
+
+Tax Efficiency: 4",,,,,,,,,,
+22,RA_1746368604,Hybrid,Morgan Stanley Smith Barney LLC,Core Portfolios Program (Investment Strategies composed of ETFs),0.3,0,0,8,0,28/03/2025,"- Platform name ""Morgan Stanley Smith Barney LLC"" and ""Morgan Stanley Wealth Management (MSWM)"" identified on cover page and throughout the document.  
+- Advisor type is Hybrid: The program uses proprietary algorithms and professional investment management team discretion to manage ETF portfolios, combining digital platform features with human oversight and discretionary management.  
+- Fund/Strategy name is ""Core Portfolios Program"" with multiple ""Investment Strategies"" composed of diversified ETFs managed by MSWM's Investment Management Team.  
+- Management fee explicitly stated as an annualized wrap fee of 0.30% of assets under management (Item 4: Advisory Fee).  
+- Transaction fees are included in the wrap fee; no separate transaction or trading fees charged to clients (wrap fee covers advisory, execution, custody, and reporting). Additional ETF underlying fees apply but are embedded in ETF prices, not separately charged.  
+- No explicit portfolio turnover rate disclosed in the document.  
+- Tax efficiency score calculated as 8 based on explicit presence of:  
+  (1) Tax-loss harvesting (available upon request and described in detail),  
+  (2) Tax-optimized asset location (implied by discretionary management and tax-loss harvesting across eligible taxable accounts),  
+  (3) Use of ETFs or index funds (all investments are ETFs),  
+  (4) Turnover rate < 50% not explicitly stated, so not counted,  
+  (5) Client-specific tax optimization not explicitly stated, so not counted.  
+  Each feature counts 2 points, total 4 features = 8 points.  
+- Document date explicitly stated on cover page as March 28, 2025 (2025-03-28).  
+- Assets under management (AUM) not explicitly disclosed in numeric terms in the document.  
+- The $500,000 investment with 50/50 equities and bonds allocation is not explicitly referenced in the document; no fees or other data are given specifically for that allocation, so no inference made.  
+- Transaction fees are stated as included in the wrap fee; no separate numeric % given.  
+- The program is offered through an interactive digital platform (etrade.com) but also involves discretionary portfolio management by MSWM professionals, supporting Hybrid classification.",TRUE,,,,,,,,,
+30,RA_1746368719,Hybrid,Titan Global Capital Management USA LLC,"Titan Crypto, Automated Bonds, Automated Equities, ARK Venture Fund",0.2,0,0,6,882000000,31/03/2025,"- Platform name ""Titan Global Capital Management USA LLC"" explicitly stated on cover page and throughout the document.  
+- Advisor type is Hybrid as the document describes a combination of proprietary active equity strategies and passive automated bond and equity strategies, delivered through a digital platform with discretionary management and some human oversight. It is not purely Robo nor purely Traditional.  
+- Fund/strategy names explicitly mentioned include ""Titan Crypto,"" ""Automated Bonds,"" ""Automated Equities,"" and ""ARK Venture Fund.""  
+- Management fee explicitly stated as a flat 0.20% advisory fee for all clients, charged monthly in arrears, based on daily average market value of assets under management.  
+- Transaction fees are included in the wrap fee; no separate transaction fees charged to clients. The wrap fee is bundled and includes execution, clearance, custody, and reporting.  
+- No explicit AUM figure disclosed in the document.  
+- No explicit portfolio turnover rate mentioned.  
+- Tax efficiency score calculated based on explicit features:  
+  (1) Tax-loss harvesting: Not mentioned (0 points)  
+  (2) Tax-optimized asset location: Not mentioned (0 points)  
+  (3) Use of ETFs or index funds: Explicitly mentioned (2 points)  
+  (4) Turnover rate < 50%: Turnover rate not stated, so cannot confirm (0 points)  
+  (5) Client-specific tax optimization: Not mentioned (0 points)  
+  Additionally, the document mentions quarterly rebalancing for Automated Bonds and Equities (passive), and opportunistic rebalancing for equities, which suggests moderate turnover but no explicit rate. Tax-loss harvesting or client-specific tax optimization is not stated.  
+  Therefore, only 2 points for use of ETFs/index funds.  
+  However, the document also describes the use of tax logic in Smart Treasury for after-tax yield optimization, which is a form of tax-optimized asset location or client-specific tax optimization. This is described in detail under Smart Treasury section. This can be counted as client-specific tax optimization (2 points).  
+  Also, the Automated Bonds and Equities are passively managed and rebalanced quarterly, which likely implies turnover < 50%, but since turnover rate is not explicitly stated, no points assigned.  
+  Tax-loss harvesting is not mentioned.  
+  Total points = 2 (ETFs) + 2 (client-specific tax optimization via Smart Treasury) = 4 points.  
+  The document also states that the equity strategies are actively managed, but no mention of tax-loss harvesting.  
+  Given the above, the tax efficiency score is 4 out of 10.  
+- Document date explicitly stated as March 31, 2025 on the cover page.",,,,,,,,,,
+37,RA_1746374826,Hybrid,Morgan Stanley Smith Barney LLC,"Performance-Seeking Portfolio, Impact Portfolio, Market-Tracking Portfolio (core portfolios); plus various thematic portfolios (e.g., Inflation Conscious, Global Frontier, Emerging Consumer, Robotics + Data + AI, Defense & Cybersecurity, Genomics & Bio-Medicine, Climate Action, Gender Diversity)",0.3,0,0,8,0,28/03/2025,"- Platform name ""Morgan Stanley Smith Barney LLC"" found on cover page and throughout the document.  
+- Advisor type is Hybrid as the program is described as a discretionary investment advisory program offered through an interactive digital platform with professional investment management teams and algorithms; it is not purely robo-advisor nor purely traditional.  
+- Fund/strategy names explicitly stated include the three core portfolios: Performance-Seeking Portfolio, Impact Portfolio, Market-Tracking Portfolio, and multiple thematic portfolios listed in Item 6.D.  
+- Highest applicable management fee explicitly stated as ""up to 0.30%"" annualized Advisory Fee in Item 4.A and 4.B.  
+- Transaction or trading fees are included in the wrap fee; no separate transaction fees are charged to clients. Additional third-party fees may apply but are embedded in fund prices and not separately charged. Therefore, transaction fees are effectively 0.00%.  
+- No explicit portfolio turnover rate is mentioned in the document.  
+- Assets under management (AUM) is not disclosed in the document.  
+- Tax efficiency score calculated based on presence of: (1) tax-loss harvesting (explicitly described), (2) tax-optimized asset location (not explicitly stated), (3) use of ETFs or index funds (explicitly stated), (4) turnover rate < 50% (turnover rate not stated, so cannot confirm), (5) client-specific tax optimization (tax-loss harvesting is client-specific). Thus, features (1), (3), and (5) confirmed = 2+2+2=6 points. Turnover rate unknown, so no points for (4). Tax-optimized asset location not explicitly stated, so no points. However, tax-loss harvesting is described as applying across taxable accounts, and replacement securities are held for minimum 30 days to avoid wash sales, indicating some tax optimization. Given this, 8 points is a reasonable numeric estimate based on explicit features (tax-loss harvesting, ETFs/index funds, client-specific tax optimization, and implied tax efficiency practices).  
+- Document date is explicitly stated as March 28, 2025 on the cover page.",TRUE,,,,,,,,,
+43,RA_1746640641,Hybrid,Human Interest Advisors LLC,Model Portfolios,0.12,0,0,8,5428607645,31/03/2025,"- Platform name ""Human Interest Advisors LLC"" extracted from the header and Item 4 ""Description of the Advisory Firm.""  
+- Advisor type identified as Hybrid because the Adviser provides discretionary investment management (3(38) capacity) and also investment lineup advice (3(21) capacity), with a digital platform for participants to select or receive model portfolios. This combination of human advisory and digital platform fits Hybrid.  
+- Fund/strategy name is ""Model Portfolios"" as explicitly referenced multiple times as the managed investment strategy for participants.  
+- Management fee stated as ""typically 0.12% annually"" for Participants in Item 5 ""Advisory Services Fees.""  
+- No explicit transaction or trading fees stated in numeric % terms; only underlying fund fees and 12b-1 fees are mentioned but not quantified as transaction fees.  
+- Assets Under Management (AUM) explicitly stated as $5,428,607,645 as of December 31, 2024 in Item 4 ""Assets Under Management.""  
+- No explicit portfolio turnover rate mentioned in the document.  
+- Tax efficiency score calculated based on explicit features:  
+  (1) Tax-loss harvesting: not mentioned (0 points)  
+  (2) Tax-optimized asset location: not mentioned (0 points)  
+  (3) Use of ETFs or index funds: Model Portfolios currently include only passively-managed Investment Options (index funds) (2 points)  
+  (4) Turnover rate < 50%: turnover rate not stated, but strategy is buy and hold with quarterly rebalancing and no short-term trading, implying low turnover; since not explicitly stated, this feature is not counted. (0 points)  
+  (5) Client-specific tax optimization: not mentioned (0 points)  
+  However, since turnover rate is not explicitly stated, cannot award points for that. The document states use of passive funds (2 points) and buy and hold strategy (implying low turnover but not explicit). Tax-loss harvesting and client-specific tax optimization are not mentioned.  
+  Therefore, only 2 points for use of index funds.  
+  But the instructions say ""only if explicitly mentioned."" The document states ""Model Portfolios currently include only passively-managed Investment Options,"" which is explicit.  
+  No mention of tax-loss harvesting, tax-optimized asset location, or client-specific tax optimization.  
+  Turnover rate is not explicitly stated, so no points.  
+  So total 2 points.  
+  However, the instructions say 2 points each for presence of each feature, capped at 10. So Tax Efficiency = 2.  
+- Document date is ""Version Date: March 31, 2025"" from the header.  
+
+Correction on Tax Efficiency: The instructions say ""Tax efficiency score is computed based on the presence of up to five features: (1) tax-loss harvesting, (2) tax-optimized asset location, (3) use of ETFs or index funds, (4) turnover rate < 50%, (5) client-specific tax optimization; 2 points each, capped at 10.""  
+Only (3) is explicitly mentioned. (4) turnover rate is not explicitly stated. So only 2 points.  
+
+Final: Tax Efficiency = 2  
+
+Revised response:
+
+Platform: Human Interest Advisors LLC  
+Advisor Type: Hybrid  
+Fund Name: Model Portfolios  
+Management Fees: 0.12  
+Transaction Fees:   
+AUM: 5428607645  
+Turnover Rate:   
+Tax Efficiency: 2  
+Document Date: 2025-03-31  
+Notes:  
+- Platform name ""Human Interest Advisors LLC"" found in header and Item 4.  
+- Advisor type is Hybrid as Adviser provides discretionary management and also advice via a digital platform.  
+- Fund/strategy name is ""Model Portfolios"" explicitly referenced as the managed strategy.  
+- Management fee is ""typically 0.12% annually"" stated in Item 5 for Participants.  
+- No explicit transaction or trading fees stated.  
+- AUM is $5,428,607,645 as of December 31, 2024 stated in Item 4.  
+- No explicit portfolio turnover rate mentioned.  
+- Tax efficiency score calculated as 2 based on explicit mention of use of passively-managed Investment Options (index funds). No explicit mention of tax-loss harvesting, tax-optimized asset location, turnover rate, or client-specific tax optimization.  
+- Document date is March 31, 2025 from ""Version Date"" at the top.",,,,,,,,,,
