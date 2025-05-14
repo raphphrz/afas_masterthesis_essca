@@ -1,5 +1,7 @@
 import os
 import sqlite3
+from datetime import datetime
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -12,7 +14,7 @@ matplotlib.use('Agg')  # Use non-interactive backend for compatibility
 DB_PATH = "../data/portfolio_data.db"
 TABLE = "portfolios_reprocessed"
 PLOT_DIR = "results/plots"
-EXPORT_FILE = "results/cost_analysis_results.xlsx"
+EXPORT_FILE = f"results/cost_analysis_result_{datetime.now().timestamp()}.xlsx"
 os.makedirs(PLOT_DIR, exist_ok=True)
 
 # --- Load filtered data (exclude manually flagged rows) ---
@@ -26,11 +28,12 @@ AUTOMATED = ["Robo-advisor", "Hybrid"]
 df["advisor_group"] = df["advisor_type"].apply(lambda x: "Automated" if x in AUTOMATED else "Traditional")
 
 # Convert AUM to log scale for analysis
-df["log_aum"] = np.log1p(df["assets_under_management"])
+df["Log AUM"] = np.log1p(df["assets_under_management"])
+df.rename(columns={"expense_ratio": "Expense Ratio", "transaction_costs": "Transaction Costs", "tax_efficiency": "Tax Efficiency"}, inplace=True)
 
 # --- Descriptive Statistics ---
 summary = df.groupby("advisor_group")[
-    ["expense_ratio", "transaction_costs", "tax_efficiency", "log_aum"]
+    ["Expense Ratio", "Transaction Costs", "Tax Efficiency", "Log AUM"]
 ].agg(["mean", "std", "median", "count"])
 
 print("\nDescriptive Statistics by Advisor Group:\n")
@@ -38,14 +41,20 @@ print(summary)
 
 # --- Visualizations ---
 sns.set(style="whitegrid")
-for var in ["expense_ratio", "transaction_costs", "tax_efficiency", "log_aum"]:
+plt.rcParams.update({"font.family": "Times New Roman"})  # Set font to Times New Roman
+colors = ["#444444", "#888888"]  # Greyscale colors for academic look
+
+for var in ["Expense Ratio", "Transaction Costs", "Tax Efficiency", "Log AUM"]:
     plt.figure(figsize=(8, 5))
-    sns.boxplot(x="advisor_group", y=var, data=df)
-    plt.title(f"{var.replace('_', ' ').title()} by Advisor Group")
+    sns.boxplot(x="advisor_group", y=var, data=df, palette=colors)
+    plt.title(f"{var} by Advisor Group", fontsize=14)
+    plt.ylabel(var, fontsize=12)
     plt.xlabel("")
+    plt.xticks(fontsize=11)
+    plt.yticks(fontsize=11)
     plt.tight_layout()
-    filename = os.path.join(PLOT_DIR, f"{var}_by_advisor_group.png")
-    plt.savefig(filename)
+    filename = os.path.join(PLOT_DIR, f"{var.replace(' ', '_').lower()}_by_advisor_group.png")
+    plt.savefig(filename, dpi=300)
     print(f"Plot saved: {filename}")
     plt.close()
 
@@ -56,7 +65,7 @@ def run_mannwhitney(var):
     return stats.mannwhitneyu(group1, group2, alternative='two-sided')
 
 results = {}
-for var in ["expense_ratio", "transaction_costs", "tax_efficiency", "log_aum"]:
+for var in ["Expense Ratio", "Transaction Costs", "Tax Efficiency", "Log AUM"]:
     stat, pval = run_mannwhitney(var)
     results[var] = {"U-statistic": stat, "p-value": pval}
 
@@ -71,9 +80,9 @@ print("\nInterpretation Summary:")
 for var in results_df.index:
     pval = results_df.loc[var, "p-value"]
     if pval < 0.05:
-        print(f"→ Statistically significant difference in {var.replace('_', ' ')} (p = {pval:.3f})")
+        print(f"→ Statistically significant difference in {var} (p = {pval:.3f})")
     else:
-        print(f"→ No significant difference in {var.replace('_', ' ')} (p = {pval:.3f})")
+        print(f"→ No significant difference in {var} (p = {pval:.3f})")
 
 # --- Export to Excel ---
 with pd.ExcelWriter(EXPORT_FILE, engine="xlsxwriter") as writer:
