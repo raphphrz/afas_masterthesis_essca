@@ -1,0 +1,27 @@
+Advisor Group,Fund Name,Ticker,1y_return,3y_return,7y_return,1y_volatility,1y_sharpe,3y_volatility,3y_sharpe,7y_volatility,7y_sharpe
+Traditional,Invesco Equity and Income A,ACEIX,11.77,4.31,6.91,9.89,0.78,13.08,0.04,13.94,0.3
+Traditional,UBS US Allocation P,PWTYX,14.35,3.75,8.46,9.17,1.12,13.8,-0.0,13.33,0.43
+Traditional,JPMorgan Investor Balanced A,OGIAX,9.17,2.56,6.07,7.27,0.7,11.28,-0.11,10.38,0.33
+Traditional,T. Rowe Price Capital Appreciation,PRWCX,12.76,5.66,10.95,6.94,1.25,12.54,0.15,12.0,0.69
+Traditional,BlackRock Balanced Investor A,MDCPX,12.6,3.48,8.27,7.36,1.15,12.99,-0.02,12.22,0.46
+Traditional,Schwab Balanced,SWOBX,12.81,2.68,7.3,7.6,1.15,13.16,-0.08,11.94,0.39
+Traditional,PIMCO Global Core Asset Allocation Fund,PGMAX,11.15,0.87,4.99,6.97,1.01,12.53,-0.23,11.88,0.19
+Traditional,Oakmark Equity And Income Investor,OAKBX,8.7,3.57,7.0,9.49,0.48,14.71,-0.01,14.76,0.29
+Traditional,Vanguard STAR Inv,VGSTX,9.28,1.61,7.1,8.12,0.64,14.19,-0.15,12.87,0.34
+Traditional,Goldman Sachs Growth & Inc Strat A,GOIAX,11.19,2.57,5.66,7.4,0.96,12.13,-0.1,11.71,0.25
+Traditional,Empower Moderate Profile L,MXGPX,7.41,1.83,5.25,7.48,0.44,11.54,-0.17,11.1,0.23
+Traditional,Morgan Stanley Institutional Fund Trust Global Strategist Portfolio,MBAAX,7.62,0.58,4.35,8.0,0.44,13.79,-0.23,12.57,0.13
+Traditional,Fidelity Advisor Asset Manager 60% M,FSATX,9.12,1.25,5.81,7.62,0.66,12.67,-0.2,11.96,0.26
+Automated,Axos Invest,Axos Invest,10.44,2.49,6.67,8.57,0.61,12.02,-0.12,12.77,0.34
+Automated,Fidelity Go,Fidelity Go,10.21,3.12,,7.3,0.87,10.24,0.0,11.47,0.41
+Automated,SoFi,SoFi,13.18,3.62,7.06,8.56,0.93,11.18,-0.02,11.69,0.4
+Automated,Acorns,Acorns,9.64,1.0,5.31,8.17,0.54,10.82,-0.27,12.06,0.25
+Automated,Wealthfront (Risk 4.0 ; 2018),Wealthfront (Risk 4.0 ; 2018),12.11,3.44,,7.89,0.87,10.61,-0.04,,
+Automated,Interactive Advisors,Interactive Advisors,10.17,3.11,6.29,9.66,0.51,11.92,-0.07,,
+Automated,Wells Fargo Intuitive Investor,Wells Fargo Intuitive Investor,12.24,2.03,6.22,8.91,0.78,12.33,-0.15,13.39,0.29
+Automated,SigFig,SigFig,10.92,2.24,6.29,8.19,0.69,10.81,-0.15,11.76,0.34
+Automated,Betterment,Betterment,10.08,2.2,5.62,8.26,0.58,11.88,-0.14,13.01,0.25
+Automated,Zacks Advantage,Zacks Advantage,11.29,3.47,6.86,7.77,0.78,10.47,-0.04,11.9,0.38
+Automated,Vanguard Digital Advisor,Vanguard Digital Advisor,9.83,2.38,,7.22,0.63,10.25,-0.15,,
+Automated,Ally Invest Robo Portfolios,Ally Invest Robo Portfolios,8.86,1.86,5.54,8.18,0.44,10.88,-0.19,11.53,0.28
+Automated,Schwab Intelligent Portfolios,Schwab Intelligent Portfolios,9.1,3.33,,7.63,0.28,9.93,-0.17,11.77,0.23
