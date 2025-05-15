@@ -1,4 +1,4 @@
-# Robo-Advisors vs. Traditional Advisors: A Comparative Study of Long-Term Risk Management and Portfolio Performance
+# Robo-Advisors vs. Traditional Advisors: A Comparative Study of Risk Management and Portfolio Performance
 
 ## Overview
 
