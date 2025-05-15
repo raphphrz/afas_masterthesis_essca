@@ -27,7 +27,7 @@ This study tests the following hypotheses:
 
 ## Technical Implementation
 
-Python 3.12 was used throughout the project. The code is modular and structured under the directory `performance_analysis/`.
+Python 3.12 was used throughout the project. The code is modular and structured under the directories `performance_analysis/` and `cost_analysis/`
 
 ## Output and Reproducibility
 
